@@ -1,0 +1,10 @@
+.button {
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+    .button[disabled=disabled] {
+        opacity: 0.5;
+    }

@@ -1,0 +1,53 @@
+/* ---------------------------------------- /*
+   GRID
+/* ---------------------------------------- */
+* {
+    box-sizing: border-box;
+}
+
+
+/**
+ * GRID BREAKPOINTS
+ */
+$grid-Mobile-SmallTablet: 500px;
+$grid-LargeTablet-SmallDesktop: 750px;
+$grid-LargeDesktop: 1010px;
+
+$grid-Padding: 15px;
+
+
+/**
+ * GRID BREAKPOINT CONTROLLER MIXIN
+ */
+@mixin breakpoint($class) {
+
+    @if $class == sm {
+        @media (min-width: $grid-Mobile-SmallTablet) { @content; }
+    }
+    @else if $class == md {
+        @media (min-width: $grid-LargeTablet-SmallDesktop) { @content; }
+    }
+    @else if $class == lg {
+        @media (min-width: $grid-LargeDesktop) { @content; }
+    }
+    @else {
+        @warn "Invalid breakpoint size";
+    }
+}
+
+
+/**
+ * OUTER-CONTAINER
+ */
+.outer-container {
+    @include clearfix();
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: $grid-Padding;
+    padding-right: $grid-Padding;
+
+    @include breakpoint(sm) {max-width: $grid-Mobile-SmallTablet;}
+    @include breakpoint(md) {max-width: $grid-LargeTablet-SmallDesktop;}
+    @include breakpoint(lg) {max-width: $grid-LargeDesktop;}
+}

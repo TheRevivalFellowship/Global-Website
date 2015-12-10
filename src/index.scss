@@ -1,0 +1,17 @@
+/**
+ * INDEX
+ */
+
+@import "_setup/normalize";
+@import "_setup/vars";
+@import "_setup/mixins";
+@import "_setup/grid";
+@import "_setup/fonts";
+
+
+/**
+ * ANGULAR
+ */
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}

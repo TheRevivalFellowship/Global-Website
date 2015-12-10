@@ -1,0 +1,65 @@
+/* ---------------------------------------- /*
+   VARIABLES
+/* ---------------------------------------- */
+
+
+/**
+ * COLORS
+ */
+$colorWhite:                hsla(0,0%,100%,1);
+
+
+/**
+ * Z-INDICES
+ */
+$zIndexHeader: 500;
+
+
+/* ---------------------------------------- /*
+   TEXT
+/* ---------------------------------------- */
+
+// Fonts
+
+
+// Times
+$timeQuick: 100ms;
+$timeMovement: 185ms;
+$timeInvisible: 80ms;
+$timeNull: 0ms;
+
+
+// Letter spacing
+$letterSpacingSmall: 0.04em;
+$letterSpacingMedium: 0.1em;
+$letterSpacingLarge: 0.2em;
+$letterSpacingHuge: 0.3em;
+
+
+/* ---------------------------------------- /*
+   SIZES AND MEASUREMENTS
+/* ---------------------------------------- */
+
+// Radials
+$radiusTiny: 5px;
+$radiusSmall: 10px;
+$radiusMedium: 15px;
+
+
+// GRID UNIT: gru
+$gruA: 2px;
+$gruB: 5px;
+$gruC: 10px;
+$gruD: 15px;
+$gruDB: $gruD + $gruB;
+$gruE: 30px;
+$gruF: 45px;
+$gruG: 60px;
+
+
+/**
+ * ELEMENT SPECIFIC
+ */
+
+
+
