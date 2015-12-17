@@ -1,0 +1,20 @@
+.header {
+    padding: $gruDB;
+}
+
+
+    .header__logo {
+        max-width: 32px;
+        margin: 0;
+    }
+
+
+        .header__logo__img {
+            display: block;
+        }
+
+
+    .header__tag {
+        max-width: 205px;
+        margin: 0 auto;
+    }
