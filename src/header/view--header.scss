@@ -1,11 +1,29 @@
 .header {
     padding: $gru20;
+
+    @include breakpoint(md) {
+        padding: $gru60 0;
+    }
 }
+
+
+    .header__container {
+
+        @include breakpoint(md) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
 
 
     .header__logo {
         max-width: 32px;
         margin: 0;
+
+        @include breakpoint(md) {
+            max-width: 80px;
+        }
     }
 
 
@@ -17,6 +35,11 @@
     .header__tag {
         max-width: 205px;
         margin: 0 auto;
+
+        @include breakpoint(md) {
+            max-width: 500px;
+            margin: 0;
+        }
     }
 
 
@@ -26,6 +49,10 @@
 
         margin-top: $gru40;
         margin-bottom: $gru20;
+
+        @include breakpoint(md) {
+            display: none;
+        }
     }
 
 

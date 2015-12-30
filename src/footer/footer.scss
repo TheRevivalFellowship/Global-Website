@@ -5,6 +5,10 @@
         font-size: 13px;
         font-style: italic;
         color: $colorLividBrown;
+
+        @include breakpoint(md) {
+            font-size: 15px;
+        }
     }
     
     

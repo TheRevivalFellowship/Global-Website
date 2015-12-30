@@ -1,5 +1,9 @@
 .news-events {
     margin-bottom: $gru45;
+
+    @include breakpoint(md) {
+        margin-bottom: $gru60;
+    }
 }
 
 

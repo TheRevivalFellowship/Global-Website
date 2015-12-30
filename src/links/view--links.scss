@@ -1,11 +1,14 @@
 .links {
-    margin-top: $gru30;
     margin-bottom: $gru30;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+
+    @include breakpoint(md) {
+        margin-bottom: $gru100;
+    }
 }
 
 

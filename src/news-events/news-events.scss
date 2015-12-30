@@ -30,6 +30,10 @@
             font-size: 13px;
             color: $colorCanonPink;
 
+            @include breakpoint(md) {
+                font-size: 25px;
+            }
+
             a {
                 color: $colorPistachio;
                 text-decoration: underline;
