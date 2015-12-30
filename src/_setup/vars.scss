@@ -6,7 +6,9 @@
 /**
  * COLORS
  */
-$colorWhite:                hsla(0,0%,100%,1);
+$colorWhite:            hsla(0,0%,100%,1);
+$colorSoftPeach:        hsla(320, 21%, 95%, 1);
+$colorRobinsEggBlue:    hsla(183, 100%, 38%, 1);
 
 
 /**
@@ -47,19 +49,15 @@ $radiusMedium: 15px;
 
 
 // GRID UNIT: gru
-$gruA: 2px;
-$gruB: 5px;
-$gruC: 10px;
-$gruD: 15px;
-$gruDB: $gruD + $gruB;
-$gruE: 30px;
-$gruF: 45px;
-$gruG: 60px;
+$gru2: 2px;
+$gru5: 5px;
+$gru10: 10px;
+$gru15: 15px;
+$gru20: 20px;
+$gru30: 30px;
+$gru45: 45px;
+$gru60: 60px;
 
-
-/**
- * ELEMENT SPECIFIC
- */
 
 
 
