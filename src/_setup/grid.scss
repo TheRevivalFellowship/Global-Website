@@ -5,15 +5,14 @@
     box-sizing: border-box;
 }
 
+$grid-Padding: 30px;
 
 /**
  * GRID BREAKPOINTS
  */
-$grid-Mobile-SmallTablet: 500px;
-$grid-LargeTablet-SmallDesktop: 750px;
-$grid-LargeDesktop: 1010px;
-
-$grid-Padding: 15px;
+$grid-Mobile-SmallTablet: 480px + ($grid-Padding * 2);
+$grid-LargeTablet-SmallDesktop: 580px + ($grid-Padding * 2);
+$grid-LargeDesktop: 680px + ($grid-Padding * 2);
 
 
 /**

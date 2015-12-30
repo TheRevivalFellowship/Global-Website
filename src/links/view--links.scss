@@ -1,0 +1,34 @@
+.links {
+    margin-top: $gru30;
+    margin-bottom: $gru30;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+    .links__item {
+        width: 48%;
+
+        margin-bottom: $gru10;
+
+        @include breakpoint(sm) {
+            width: 24%;
+        }
+
+        a {
+            display: block;
+        }
+    }
+
+
+        .links__item__img {
+            display: block;
+        }
+
+
+
+
+
