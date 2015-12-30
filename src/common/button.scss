@@ -11,6 +11,7 @@
 
     font-size: 12px;
     line-height: 3;
+    white-space: nowrap;
 
     padding: 0 15px;
 
@@ -30,4 +31,14 @@
     .button--stretch {
         width: 100%;
         padding: 0;
+    }
+    
+    
+    .button--alt {
+        border-color: $colorRoseOfSharon;
+        color: $colorRoseOfSharon;
+
+        &:hover, &:active {
+            background-color: hsla(24, 100%, 38%, 0.08); //$colorRoseOfSharon
+        }
     }

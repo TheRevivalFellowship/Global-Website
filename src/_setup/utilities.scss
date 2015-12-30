@@ -1,7 +1,7 @@
 .show-md {
     display: none !important;
     @include breakpoint(md) {
-        display: initial;
+        display: initial !important;
     }
 }
 

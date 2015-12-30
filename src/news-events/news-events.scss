@@ -11,6 +11,10 @@
             font-weight: normal;
 
             margin: $gru20 0;
+
+            @include breakpoint(md) {
+                font-size: 15px;
+            }
         }
 
 
@@ -20,22 +24,33 @@
             opacity: 0.3;
 
             text-decoration: underline;
+
+            &:hover {
+                opacity: 0.5;
+            }
+
+            @include breakpoint(md) {
+                font-size: 15px;
+            }
     }
 
 
     .news-events__main {}
 
 
-        .news-events__main__info {
-            font-size: 13px;
-            color: $colorCanonPink;
+        .news-events__main__info {}
 
-            @include breakpoint(md) {
-                font-size: 25px;
-            }
 
-            a {
-                color: $colorPistachio;
-                text-decoration: underline;
+            .news-events__main__info__copy {
+                font-size: 13px;
+                color: $colorCanonPink;
+
+                @include breakpoint(md) {
+                    font-size: 25px;
+                }
+
+                a {
+                    color: $colorPistachio;
+                    text-decoration: underline;
+                }
             }
-        }

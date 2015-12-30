@@ -24,6 +24,10 @@
         @include breakpoint(md) {
             max-width: 80px;
         }
+
+        a {
+            display: block;
+        }
     }
 
 

@@ -15,9 +15,11 @@
     <header class="header">
         <div class="header__container outer-container">
             <h1 class="header__logo">
-                <img src="assets/img/logo--with-title--cyan.svg"
-                        alt="The Revival Fellowship logo"
-                        class="header__logo__img">
+                <a href="/">
+                    <img src="assets/img/logo--with-title--cyan.svg"
+                            alt="The Revival Fellowship logo"
+                            class="header__logo__img">
+                </a>
             </h1>
             <h2 class="header__tag">
                 <img src="assets/img/title--one-fellowship-many-locations--colored--alt.svg"
@@ -32,7 +34,7 @@
     </header>
 
     <!-- FIND A FELLOWSHIP -->
-    <section class="find-fellow">
+    <section class="find-fellow outer-container">
         <div class="find-fellow__header">
             <h3 class="find-fellow__header__title">Find a fellowship</h3>
         </div>
@@ -85,19 +87,21 @@
     <section class="news-events outer-container">
 
         <div class="news-events__header">
-            <h2 class="news-events__header__title">News &amp; Event</h2>
-            <a class="news-events__header__submit">Submit Events</a>
+            <h2 class="news-events__header__title">News &amp; Events</h2>
+            <a class="news-events__header__submit">Submit Event</a>
         </div>
 
         <div class="news-events__main">
             <img src="assets/img/content/event-life.jpg"
                      alt="Life Convention"
                      class="news-events__main__img">
-            <p class="news-events__main__info">
-                Australian 2015 Convention, 6-8th June at the Gold Coast Convention Centre.
-                <a href="" class="hide-md">Register</a>
-            </p>
-            <a class="news-events__main__action button show-md">Register</a>
+            <div class="news-events__main__info">
+                <p class="news-events__main__info__copy">
+                    Australian 2015 Convention, 6-8th June at the Gold Coast Convention Centre.
+                    <a href="" class="hide-md">Register</a>
+                </p>
+                <a class="news-events__main__info__action button button--alt show-md">Register</a>
+            </div>
         </div>
     </section>
 

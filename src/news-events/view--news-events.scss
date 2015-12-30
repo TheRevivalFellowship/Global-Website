@@ -12,3 +12,32 @@
         justify-content: space-between;
         align-items: center;
     }
+
+
+        .news-events__main__img {
+            margin-bottom: $gru10;
+
+            @include breakpoint(md) {
+                margin-bottom: $gru30;
+            }
+        }
+
+
+        .news-events__main__info {
+
+            @include breakpoint(md) {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+
+
+            .news-events__main__info__copy {
+                margin: 0;
+            }
+
+
+            .news-events__main__info__action {
+                margin-right: 3%;
+            }
