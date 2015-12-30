@@ -8,12 +8,17 @@
 
     color: $colorRobinsEggBlue;
     text-transform: uppercase;
-    font-weight: bold; //TODO: Update this when fonts are imported.
 
     font-size: 12px;
     line-height: 3;
 
     padding: 0 15px;
+
+    transition: background-color $timeInvisible;
+
+    &:hover, &:active {
+        background-color: hsla(183, 100%, 38%, 0.08); //$colorRobinsEggBlue
+    }
 }
 
 
@@ -24,4 +29,5 @@
 
     .button--stretch {
         width: 100%;
+        padding: 0;
     }

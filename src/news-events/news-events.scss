@@ -1,0 +1,37 @@
+.news-events {}
+
+
+    .news-events__header {}
+
+
+        .news-events__header__title {
+            font-size: 11px;
+            color: $colorRobinsEggBlue;
+            text-transform: uppercase;
+            font-weight: normal;
+
+            margin: $gru20 0;
+        }
+
+
+        .news-events__header__submit {
+            font-size: 11px;
+            text-transform: uppercase;
+            opacity: 0.3;
+
+            text-decoration: underline;
+    }
+
+
+    .news-events__main {}
+
+
+        .news-events__main__info {
+            font-size: 13px;
+            color: $colorCanonPink;
+
+            a {
+                color: $colorPistachio;
+                text-decoration: underline;
+            }
+        }

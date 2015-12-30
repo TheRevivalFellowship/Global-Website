@@ -1,4 +1,5 @@
 .show-md {
+    display: none !important;
     @include breakpoint(md) {
         display: initial;
     }
@@ -6,6 +7,6 @@
 
 .hide-md {
     @include breakpoint(md) {
-        display: none;
+        display: none !important;
     }
 }
