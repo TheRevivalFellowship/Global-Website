@@ -40,7 +40,6 @@ $grid-Padding: 15px;
  * OUTER-CONTAINER
  */
 .outer-container {
-    @include clearfix();
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -51,3 +50,8 @@ $grid-Padding: 15px;
     @include breakpoint(md) {max-width: $grid-LargeTablet-SmallDesktop;}
     @include breakpoint(lg) {max-width: $grid-LargeDesktop;}
 }
+
+
+    .outer-container--cleared {
+        @include clearfix;
+    }

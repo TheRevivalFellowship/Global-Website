@@ -1,0 +1,26 @@
+.social {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: $gru30;
+    margin-bottom: $gru30;
+}
+
+
+    .social__icon {
+        text-align: center;
+
+        a {
+            display: block;
+            padding: $gru10;
+        }
+    }
+
+
+        .social__icon__img {
+            display: block;
+            max-width: 25px;
+            max-height: 25px;
+        }
