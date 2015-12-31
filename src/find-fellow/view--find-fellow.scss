@@ -1,18 +1,21 @@
-.find-fellow {
-    display: none;
+.find-fellow {}
 
-    @include breakpoint(md) {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
 
-        margin-top: $gru40;
-        margin-bottom: $gru40;
+    .find-fellow__header {
+        display: none;
+
+        @include breakpoint(md) {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            margin-top: $gru40;
+            margin-bottom: $gru40;
+        }
     }
-}
 
 
-    .find-fellow__actions {
+    .find-fellow__header__actions {
         display: flex;
         justify-content: space-between;
         align-items: center;
