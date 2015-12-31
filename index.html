@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="FellowshipFinder">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -34,7 +34,7 @@
     </header>
 
     <!-- FIND A FELLOWSHIP -->
-    <section class="find-fellow outer-container">
+    <section class="find-fellow outer-container" ng-controller="FindFellowshipController as ffc">
 
         <div class="find-fellow__header">
             <h3 class="find-fellow__header__title">Find a fellowship</h3>
@@ -215,7 +215,9 @@
                 class="footer__icon">
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
     <script src="assets/js/website.min.js"></script>
+
 
 </body>
 </html>
