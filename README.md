@@ -25,3 +25,5 @@ The central website for the whole fellowship.
  - Created `FellowshipsModel` service and hooked up to views.
  - Some basic styling.
  - Open/Close click toggling on regions.
+
+Next steps: Style region, implement sub-region toggling.
