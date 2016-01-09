@@ -34,24 +34,44 @@
     </header>
 
     <!-- FIND A FELLOWSHIP -->
-    <section class="find-fellow outer-container" ng-controller="FindFellowshipController as ffc">
+    <section class="find-fellow outer-container"
+        ng-controller="FindFellowshipController as ffc"
+        ng-class="'find-fellow--' + ffc.stateService.state">
 
-        <div class="find-fellow__header">
+        <div class="find-fellow__header" ng-hide="ffc.stateService.state == 'locating' || ffc.stateService.state == 'single'">
             <h3 class="find-fellow__header__title">Find a fellowship</h3>
             <div class="find-fellow__header__actions">
-                <button class="button">Use current location</button>
-                <button class="button">List all fellowships</button>
-            </div>
-            <div class="find-fellow__header__actions">
-                <button class="button">Close</button>
+                <button class="button"
+                    ng-show="ffc.stateService.state == 'default'"
+                    ng-click="ffc.useCurrentLocation()">
+                    Use current location
+                </button>
+                <button class="button"
+                    ng-show="ffc.stateService.state == 'default'"
+                    ng-click="ffc.listAllFellowships()">
+                    List all fellowships
+                </button>
+                <button class="button"
+                    ng-show="ffc.stateService.state == 'list'"
+                    ng-click="ffc.close()">
+                    Close
+                </button>
             </div>
         </div>
 
+        <!-- LOCATING -->
+        <div class="locating" ng-show="ffc.stateService.state == 'locating'">[locating]</div>
+
+        <!-- SINGLE LOCATED FELLOWSHIP -->
+        <div class="fellowship" ng-show="ffc.stateService.state == 'single'">
+            [single fellowship]
+        </div>
+
         <!-- SHIP LIST -->
-        <div class="ship-list">
-            <div class="ship-list__region">
+        <div class="ship-list" ng-show="ffc.stateService.state == 'list'">
+            <div class="ship-list__region" ng-repeat="fellowship in ffc.fellowshipsData">
                 <div class="ship-list__region__header">
-                    <div class="ship-list__region__header__title">Australia</div>
+                    <div class="ship-list__region__header__title">{{fellowship.region}}</div>
                     <div class="ship-list__region__header__icon">[arrow/cross]</div>
                 </div>
 
@@ -61,13 +81,13 @@
                         <label class="ship-list__region__sub-header__title__label">
                             Pst Paul Nobel
                         </label>
-                        <a href="#"
-                                class="ship-list__region__sub-header__title__contact-icon">
+                        <a href="#" class="ship-list__region__sub-header__title__contact-icon">
                             [mail icon]
                         </a>
                     </div>
                 </div>
 
+                <!-- SUB REGIONS -->
                 <div class="ship-list__sub-region">
                     <div class="ship-list__sub-region__title">
                         South Australia
@@ -98,6 +118,7 @@
                         </a>
                     </div>
                 </div>
+
             </div>
         </div>
 
