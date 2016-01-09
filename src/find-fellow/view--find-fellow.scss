@@ -24,3 +24,34 @@
             margin-left: $gru10;
         }
     }
+
+
+    /* ---------------------------------------- /*
+        (FELLOW)SHIP LIST
+    /* ---------------------------------------- */
+
+    .ship-list {}
+
+
+        .ship-list__region {}
+
+
+            .ship-list__region__header {}
+
+
+                .ship-list__region__header__title {}
+
+
+                .ship-list__region__header__icon {
+                    display: none; // Default
+                }
+
+
+            .ship-list__region__sub-header {
+                display: none; // Default
+            }
+
+
+        .ship-list__sub-region {
+            display: none; // Default
+        }

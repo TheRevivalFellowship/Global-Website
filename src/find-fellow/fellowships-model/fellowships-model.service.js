@@ -13,6 +13,12 @@
 
         data = [
             {
+                "region": "Africa"
+            },
+            {
+                "region": "Americas"
+            },
+            {
                 "region": "Asia",
                 "sub-regions": [
                     {
@@ -70,6 +76,15 @@
                         "fellowships": []
                     }
                 ]
+            },
+            {
+                "region": "Europe"
+            },
+            {
+                "region": "New Zealand"
+            },
+            {
+                "region": "Oceania"
             }
         ];
 
