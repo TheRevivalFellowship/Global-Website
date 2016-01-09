@@ -1,0 +1,32 @@
+.ship-list {}
+
+
+    .ship-list__region {}
+
+
+        .ship-list__region__header {
+            color: $colorFlint;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $colorRobinsEggBlue;
+                color: $colorWhite;
+            }
+        }
+
+
+            .ship-list__region__header__title {
+                font-size: 30px;
+            }
+
+
+            .ship-list__region__header__icon {
+            }
+
+
+            .ship-list__region__sub-header {
+            }
+
+
+    .ship-list__sub-region {
+    }

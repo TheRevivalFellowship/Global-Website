@@ -36,22 +36,50 @@
         .ship-list__region {}
 
 
-            .ship-list__region__header {}
+            .ship-list__region__header {
+                padding: 15px 15px 10px;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
 
 
                 .ship-list__region__header__title {}
 
 
-                .ship-list__region__header__icon {
-                    display: none; // Default
-                }
+                .ship-list__region__header__icon {}
+
+
+                    .ship-list__region__header__icon--arrow {
+
+                        .ship-list__region--open & {
+                            display: none;
+                        }
+                    }
+
+                    .ship-list__region__header__icon--close {
+                        display: none; // Default
+
+                        .ship-list__region--open & {
+                            display: block;
+                        }
+                    }
 
 
             .ship-list__region__sub-header {
                 display: none; // Default
+
+                .ship-list__region--open & {
+                    display: block;
+                }
             }
 
 
         .ship-list__sub-region {
             display: none; // Default
+
+            .ship-list__region--open & {
+                display: block;
+            }
         }

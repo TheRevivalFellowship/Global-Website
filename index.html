@@ -70,9 +70,16 @@
         <!-- SHIP LIST -->
         <div class="ship-list" ng-show="ffc.stateService.state == 'list'">
             <div class="ship-list__region" ng-repeat="fellowship in ffc.fellowshipsData">
-                <div class="ship-list__region__header">
+                <div class="ship-list__region__header"
+                    ng-click="ffc.openRegion($event)">
                     <div class="ship-list__region__header__title">{{fellowship.region}}</div>
-                    <div class="ship-list__region__header__icon">[arrow/cross]</div>
+                    <div class="ship-list__region__header__icon ship-list__region__header__icon--arrow">
+                        [arrow]
+                    </div>
+                    <div class="ship-list__region__header__icon ship-list__region__header__icon--close"
+                        ng-click="ffc.closeRegion($event, 2, true)">
+                        [close]
+                    </div>
                 </div>
 
                 <div class="ship-list__region__sub-header">
