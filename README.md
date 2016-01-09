@@ -27,3 +27,8 @@ The central website for the whole fellowship.
  - Open/Close click toggling on regions.
 
 Next steps: Style region, implement sub-region toggling.
+
+
+## Todo
+
+- Implement fonts as per Daniel's email.
