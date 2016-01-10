@@ -19,7 +19,8 @@
         };
 
         classes = {
-            regionOpen: 'ship-list__region--open'
+            regionOpen: 'ship-list__region--regions-open',
+            fellowshipOpen: 'ship-list__region--fellowship-open'
         };
 
         fellowshipsData = FellowshipsModel.data;
@@ -38,6 +39,8 @@
         vm.toggleRegion = toggleRegion;
         vm.openRegion = openRegion;
         vm.closeRegion = closeRegion;
+        vm.openFellowship = openFellowship;
+        vm.closeFellowship = closeFellowship;
 
 
         /* ---------------------------------------- /*
@@ -58,7 +61,7 @@
 
         }
 
-        function close(event) {
+        function close() {
             stateService.state = 'default';
         }
 
@@ -71,7 +74,16 @@
         function toggleRegion(event, numParents) {
             var region = getParent(event, numParents);
 
-            region.toggleClass(classes.regionOpen);
+            if(region.hasClass(classes.regionOpen) || region.hasClass(classes.fellowshipOpen))
+            {
+                region.removeClass(classes.regionOpen);
+                region.removeClass(classes.fellowshipOpen);
+            }
+            else
+            {
+                region.addClass(classes.regionOpen);
+                region.removeClass(classes.fellowshipOpen);
+            }
         }
 
         function closeRegion(event, numParents, stopProp) {
@@ -84,6 +96,20 @@
             }
         }
 
+        function openFellowship(event, numParents) {
+            var region = getParent(event, numParents);
+
+            region.removeClass(classes.regionOpen);
+            region.addClass(classes.fellowshipOpen);
+        }
+
+        function closeFellowship($event, numParents) {
+            var region = getParent(event, numParents);
+
+            region.addClass(classes.regionOpen);
+            region.removeClass(classes.fellowshipOpen);
+        }
+
 
         /* ---------------------------------------- /*
             PRIVATE
@@ -94,6 +120,7 @@
 
             element = event.currentTarget;
 
+            // TODO: Rebuild into a for loop
             parent = angular
                 .element(element)
                 .parent(); // 1
@@ -103,7 +130,24 @@
             }
 
             if(numParents == 3) {
-                parent = parent.parent().parent(); // 3
+                parent = parent
+                    .parent()
+                    .parent(); // 3
+            }
+
+            if(numParents == 4) {
+                parent = parent
+                    .parent()
+                    .parent()
+                    .parent(); // 4
+            }
+
+            if(numParents == 5) {
+                parent = parent
+                    .parent()
+                    .parent()
+                    .parent()
+                    .parent(); // 5
             }
 
             return parent;

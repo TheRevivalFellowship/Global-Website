@@ -4,11 +4,20 @@
     .ship-list__region {}
 
 
+        .ship-list__region--regions-open,
+        .ship-list__region--fellowship-open {
+            background-color: $colorWildSand;
+        }
+
+
         .ship-list__region__header {
             color: $colorFlint;
             cursor: pointer;
 
-            &:hover {
+            &:hover,
+
+            .ship-list__region--regions-open &,
+            .ship-list__region--fellowship-open & {
                 background-color: $colorRobinsEggBlue;
                 color: $colorWhite;
             }
@@ -20,13 +29,22 @@
             }
 
 
-            .ship-list__region__header__icon {
-            }
+            .ship-list__region__header__icon {}
 
 
             .ship-list__region__sub-header {
+                background-color: $colorTuna;
+                color: $colorRobinsEggBlue;
             }
 
 
-    .ship-list__sub-region {
-    }
+    .ship-list__sub-region {}
+
+
+        .ship-list__sub-region__title {}
+
+
+        .ship-list__sub-region__fellowship {
+            color: $colorRobinsEggBlue;
+            text-decoration: underline;
+        }
