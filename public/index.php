@@ -16,6 +16,9 @@ function inc_src($path) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/website.min.css?m=2015.01.10">
 
+    <script src="https://use.typekit.net/ppd6ljk.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 </head>
 <body ng-controller="FindFellowshipController as ffc">
 
