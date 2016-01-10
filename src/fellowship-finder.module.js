@@ -3,9 +3,12 @@
 
     angular
         .module('FellowshipFinder', [
+
+            // https://github.com/ninjatronic/ngGeolocation
             'ngGeolocation'
+
         ]);
 
-    // https://github.com/ninjatronic/ngGeolocation
+
 
 })();

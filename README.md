@@ -2,10 +2,14 @@
 The central website for the whole fellowship.
 
 ## To set up build automation
-- Run `sudo npm install` from root directory.
-- Run `gulp` to begin watch and building.
+- Run `vagrant up` to boot up VM
+- Run `sudo npm install` from root directory
+- Run `gulp` to begin watch and building
+- Visit `http://192.168.33.10`
+
 
 ## Build tools requires
+- Vagrant (vagrantup.com)
 - NodeJS
 - Gulp (`sudo npm install -g gulp`)
 

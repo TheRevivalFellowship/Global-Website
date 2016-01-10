@@ -13,8 +13,7 @@ var gutil = require('gulp-util');
  */
 exports.paths = {
     src: './src',
-    dist: './assets',
-    theme: './'
+    dist: './public/assets'
 };
 
 /**
