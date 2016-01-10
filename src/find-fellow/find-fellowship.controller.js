@@ -11,7 +11,8 @@
         var vm = this,
             stateService,
             fellowshipsData,
-            classes;
+            classes,
+            positionService;
 
         stateService = {
             // [default, locating, single, list]
@@ -21,6 +22,10 @@
         classes = {
             regionOpen: 'ship-list__region--regions-open',
             fellowshipOpen: 'ship-list__region--fellowship-open'
+        };
+
+        positionService = {
+            position: null
         };
 
         fellowshipsData = FellowshipsModel.data;
@@ -56,6 +61,8 @@
             })
                 .then(function gotPositionSuccesfully(position) {
                     stateService.state = 'single';
+                    positionService.position = position;
+                    console.log(position);
                 })
                 .catch(function unableToGetPosition() {
                     stateService.state = 'list';
