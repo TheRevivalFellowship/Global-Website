@@ -27,6 +27,16 @@
 
 
     /* ---------------------------------------- /*
+        LOCATING
+    /* ---------------------------------------- */
+
+    .locating {
+        padding: 2em;
+        margin: 1em;
+    }
+
+
+    /* ---------------------------------------- /*
         (FELLOW)SHIP LIST
     /* ---------------------------------------- */
 
@@ -76,7 +86,9 @@
 
                 .ship-list__region--regions-open &,
                 .ship-list__region--fellowship-open & {
-                    display: block;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
                 }
             }
 
@@ -105,13 +117,17 @@
     /* ---------------------------------------- */
 
     .fellowship {
-        display: none; // Default
-
         padding: 2em; // Temp
 
-        .ship-list__region--fellowship-open & {
-            display: block;
+        // Within .ship-list
+        .ship-list & {
+            display: none; // Default
+
+            .ship-list__region--fellowship-open & {
+                display: block;
+            }
         }
+
     }
 
 

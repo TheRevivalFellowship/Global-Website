@@ -59,12 +59,61 @@
         </div>
 
         <!-- LOCATING -->
-        <div class="locating" ng-show="ffc.stateService.state == 'locating'">[locating]</div>
+        <div class="locating" ng-show="ffc.stateService.state == 'locating'">Locating...</div>
 
         <!-- SINGLE LOCATED FELLOWSHIP -->
         <div class="fellowship" ng-show="ffc.stateService.state == 'single'">
-            [single fellowship]
+            <div class="fellowship__header">
+                <div class="fellowship__header__info">
+                    <h2 class="fellowship__header__info__title">Sydney Revival Fellowship</h2>
+                    <h4 class="fellowship__header__info__sub-title">Sydney, NSW</h4>
+                </div>
+                <div class="fellowship__header__actions">
+                    <div class="fellowship__footer__action">
+                        <button class="button" ng-click="ffc.closeFellowshipSingle()">Close</button>
+                    </div>
+                    <div class="fellowship__footer__action">
+                        <a href="#">Correction</a>
+                    </div>
+                </div>
+            </div>
+            <div class="fellowship__body">
+                <div class="fellowship__body__info">
+                    <div class="fellowship__body__info__title">Sunday: 10:30am</div>
+                    <div class="fellowship__body__info__sub-title">Pst Andrew Riggs</div>
+                    <div class="fellowship__body__info__copy">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at consequatur eligendi, esse excepturi expedita fuga hic odit reiciendis suscipit.
+                    </div>
+                </div>
+                <div class="fellowship__body__references">
+                    <div class="fellowship__body____references__link">
+                        <span>[icon]</span>
+                        <a href="#">Link</a>
+                    </div>
+                    <div class="fellowship__body____references__link">
+                        <span>[icon]</span>
+                        <a href="#">Link</a>
+                    </div>
+                    <div class="fellowship__body____references__link">
+                        <span>[icon]</span>
+                        <a href="#">Link</a>
+                    </div>
+                    <div class="fellowship__body____references__link">
+                        <span>[icon]</span>
+                        <a href="#">Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="fellowship__footer">
+                <div class="fellowship__footer__action">
+                    <button class="button" ng-click="ffc.closeFellowshipSingle()">Close</button>
+                </div>
+                <div class="fellowship__footer__action">
+                    <a href="#">Correction</a>
+                </div>
+            </div>
         </div>
+
 
         <!-- SHIP LIST -->
         <div class="ship-list" ng-show="ffc.stateService.state == 'list'">
@@ -97,12 +146,12 @@
                     <h3 class="ship-list__sub-region__title">
                         South Australia
                     </h3>
-                    <div class="ship-list__sub-region__fellowship">
+                    <div class="ship-list__sub-region__fellowship" ng-click="ffc.openFellowship($event, 2)">
                         <a class="ship-list__sub-region__fellowship__title">
                             Adelaide, Elizabeth SA
                         </a>
                     </div>
-                    <div class="ship-list__sub-region__fellowship">
+                    <div class="ship-list__sub-region__fellowship" ng-click="ffc.openFellowship($event, 2)">
                         <a class="ship-list__sub-region__fellowship__title">
                             Adelaide, Elizabeth SA
                         </a>
@@ -117,7 +166,7 @@
                             Sydney NSW
                         </a>
                     </div>
-                    <div class="ship-list__sub-region__fellowship">
+                    <div class="ship-list__sub-region__fellowship" ng-click="ffc.openFellowship($event, 2)">
                         <a class="ship-list__sub-region__fellowship__title">
                             Newcastle NSW
                         </a>
@@ -175,8 +224,6 @@
                             <a href="#">Correction</a>
                         </div>
                     </div>
-
-
                 </div>
 
             </div>

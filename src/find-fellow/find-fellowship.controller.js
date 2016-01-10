@@ -41,6 +41,7 @@
         vm.closeRegion = closeRegion;
         vm.openFellowship = openFellowship;
         vm.closeFellowship = closeFellowship;
+        vm.closeFellowshipSingle = closeFellowshipSingle;
 
 
         /* ---------------------------------------- /*
@@ -103,11 +104,15 @@
             region.addClass(classes.fellowshipOpen);
         }
 
-        function closeFellowship($event, numParents) {
+        function closeFellowship(event, numParents) {
             var region = getParent(event, numParents);
 
             region.addClass(classes.regionOpen);
             region.removeClass(classes.fellowshipOpen);
+        }
+
+        function closeFellowshipSingle() {
+            stateService.state = 'default';
         }
 
 
