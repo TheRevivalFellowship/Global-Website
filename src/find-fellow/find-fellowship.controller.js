@@ -5,9 +5,9 @@
         .module('FellowshipFinder')
         .controller('FindFellowshipController', FindFellowshipController);
 
-    FindFellowshipController.$inject = ['FellowshipsModel', '$timeout']
+    FindFellowshipController.$inject = ['FellowshipsModel', '$geolocation']
 
-    function FindFellowshipController(FellowshipsModel, $timeout) {
+    function FindFellowshipController(FellowshipsModel, $geolocation) {
         var vm = this,
             stateService,
             fellowshipsData,
@@ -51,10 +51,15 @@
         function useCurrentLocation() {
             stateService.state = 'locating';
 
-            $timeout(function() {
-                stateService.state = 'single';
-            }, 1000);
-
+            $geolocation.getCurrentPosition({
+                timeout: 30000 // 30 seconds
+            })
+                .then(function gotPositionSuccesfully(position) {
+                    stateService.state = 'single';
+                })
+                .catch(function unableToGetPosition() {
+                    stateService.state = 'list';
+                });
         }
 
         function listAllFellowships() {
