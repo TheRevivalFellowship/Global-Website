@@ -82,7 +82,7 @@
             .ship-list__region__sub-header {
                 display: none; // Default
 
-                padding: 2em; // Temp
+                padding: 1em; // Temp
 
                 .ship-list__region--regions-open &,
                 .ship-list__region--fellowship-open & {
@@ -96,7 +96,8 @@
         .ship-list__sub-region {
             display: none; // Default
 
-            padding: 2em; // Temp
+            margin: 1em; // Temp
+            margin-bottom: 2em; // Temp
 
             .ship-list__region--regions-open & {
                 display: block;
@@ -105,8 +106,6 @@
 
 
             .ship-list__sub-region__title {
-                padding: 1em 0; // Temp
-
                 font-size: 18px;
                 font-weight: bold;
             }
@@ -117,7 +116,7 @@
     /* ---------------------------------------- */
 
     .fellowship {
-        padding: 2em; // Temp
+        padding: 1em; // Temp
 
         // Within .ship-list
         .ship-list & {

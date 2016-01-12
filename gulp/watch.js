@@ -23,7 +23,10 @@ gulp.task('watch', function () {
         gulp.start('scripts');
     });
 
-    gulp.watch(path.join(conf.paths.dist, '/**/*.html'), function (event) {
+    gulp.watch([
+        path.join(conf.paths.dist, '/**/*.html'),
+        path.join(conf.paths.src, '/**/*.php')
+    ], function (event) {
         livereload.reload();
     });
 

@@ -3,12 +3,17 @@
 
     angular
         .module('FellowshipFinder')
-        .factory('FellowshipsModel', FellowshipsModel);
+        .factory('CurrentFellowship', CurrentFellowship);
 
-    FellowshipsModel.$inject = ['$http'];
+    CurrentFellowship.$inject = [];
 
-    function FellowshipsModel($http) {
-        var factory;
+    function CurrentFellowship() {
+        var factory,
+            fellowship;
+
+        fellowship = {
+            data: {}
+        };
 
 
         /* ---------------------------------------- /*
@@ -17,7 +22,8 @@
 
         factory = {};
 
-        factory.getData = getData;
+        factory.fellowship = fellowship;
+        factory.setCurrentFellowship = setCurrentFellowship;
 
         return factory;
 
@@ -26,8 +32,8 @@
             PUBLIC
         /* ---------------------------------------- */
 
-        function getData() {
-            return $http.get('assets/data/fellowships-global.json');
+        function setCurrentFellowship(newFellowship) {
+            fellowship.data = newFellowship;
         }
 
 

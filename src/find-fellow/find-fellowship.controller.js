@@ -5,9 +5,9 @@
         .module('FellowshipFinder')
         .controller('FindFellowshipController', FindFellowshipController);
 
-    FindFellowshipController.$inject = ['FellowshipsModel', '$geolocation']
+    FindFellowshipController.$inject = ['FellowshipsModel', 'CurrentFellowship', '$geolocation']
 
-    function FindFellowshipController(FellowshipsModel, $geolocation) {
+    function FindFellowshipController(FellowshipsModel, CurrentFellowship, $geolocation) {
         var vm = this,
             stateService,
             fellowshipsData,
@@ -28,7 +28,13 @@
             position: null
         };
 
-        fellowshipsData = FellowshipsModel.data;
+        FellowshipsModel.getData()
+            .then(function gotData(response) {
+                vm.fellowshipsData = response.data;
+            })
+            .catch(function somethingWentWrong() {
+                // Error :(
+            });
 
 
         /* ---------------------------------------- /*
@@ -36,7 +42,7 @@
         /* ---------------------------------------- */
 
         vm.stateService = stateService;
-        vm.fellowshipsData = fellowshipsData;
+        vm.fellowshipsData = null;
 
         vm.useCurrentLocation = useCurrentLocation;
         vm.listAllFellowships = listAllFellowships;
@@ -109,8 +115,10 @@
             }
         }
 
-        function openFellowship(event, numParents) {
+        function openFellowship(fellowshipObject, event, numParents) {
             var region = getParent(event, numParents);
+
+            CurrentFellowship.setCurrentFellowship(fellowshipObject)
 
             region.removeClass(classes.regionOpen);
             region.addClass(classes.fellowshipOpen);

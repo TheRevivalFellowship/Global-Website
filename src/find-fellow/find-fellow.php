@@ -85,7 +85,7 @@
         <div class="ship-list__region" ng-repeat="fellowship in ffc.fellowshipsData">
             <div class="ship-list__region__header"
                 ng-click="ffc.toggleRegion($event, 1)">
-                <div class="ship-list__region__header__title">{{fellowship.region}}</div>
+                <div class="ship-list__region__header__title">{{fellowship.name}}</div>
                 <div class="ship-list__region__header__icon ship-list__region__header__icon--arrow">
                     <img src="assets/img/icon--arrow-down-metalic.png" alt="">
                 </div>
@@ -107,43 +107,27 @@
             </div>
 
             <!-- SUB REGIONS -->
-            <div class="ship-list__sub-region">
+            <div class="ship-list__sub-region" ng-repeat="sub_region in fellowship.subRegion">
                 <h3 class="ship-list__sub-region__title">
-                    South Australia
+                    {{sub_region.name}}
                 </h3>
-                <div class="ship-list__sub-region__fellowship" ng-click="ffc.openFellowship($event, 2)">
+                <div class="ship-list__sub-region__fellowship"
+                    ng-repeat="local_fellowship in sub_region.fellowships"
+                    ng-click="ffc.openFellowship(local_fellowship, $event, 2)">
                     <a class="ship-list__sub-region__fellowship__title">
-                        Adelaide, Elizabeth SA
-                    </a>
-                </div>
-                <div class="ship-list__sub-region__fellowship" ng-click="ffc.openFellowship($event, 2)">
-                    <a class="ship-list__sub-region__fellowship__title">
-                        Adelaide, Elizabeth SA
-                    </a>
-                </div>
-            </div>
-            <div class="ship-list__sub-region">
-                <h3 class="ship-list__sub-region__title">
-                    New South Wales
-                </h3>
-                <div class="ship-list__sub-region__fellowship" ng-click="ffc.openFellowship($event, 2)">
-                    <a class="ship-list__sub-region__fellowship__title">
-                        Sydney NSW
-                    </a>
-                </div>
-                <div class="ship-list__sub-region__fellowship" ng-click="ffc.openFellowship($event, 2)">
-                    <a class="ship-list__sub-region__fellowship__title">
-                        Newcastle NSW
+                        {{local_fellowship.name}}
                     </a>
                 </div>
             </div>
 
             <!-- SINGLE FELLOWSHIP -->
-            <div class="fellowship">
+            <div class="fellowship" ng-controller="CurrentFellowshipController as curfel">
                 <div class="fellowship__header">
                     <div class="fellowship__header__info">
-                        <h2 class="fellowship__header__info__title">Sydney Revival Fellowship</h2>
-                        <h4 class="fellowship__header__info__sub-title">Sydney, NSW</h4>
+                        <h2 class="fellowship__header__info__title">
+                            {{curfel.fellowship.data.name}}
+                        </h2>
+                        <h4 class="fellowship__header__info__sub-title">Sydney, NSW [??]</h4>
                     </div>
                     <div class="fellowship__header__actions">
                         <div class="fellowship__footer__action">
@@ -156,7 +140,11 @@
                 </div>
                 <div class="fellowship__body">
                     <div class="fellowship__body__info">
-                        <div class="fellowship__body__info__title">Sunday: 10:30am</div>
+
+                        <div class="fellowship__body__info__title">
+                            {{curfel.fellowship.data.meetings[0].dayOfWeek}}:
+                            {{curfel.fellowship.data.meetings[0].startTime}}
+                        </div>
                         <div class="fellowship__body__info__sub-title">Pst Andrew Riggs</div>
                         <div class="fellowship__body__info__copy">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at consequatur eligendi, esse excepturi expedita fuga hic odit reiciendis suscipit.

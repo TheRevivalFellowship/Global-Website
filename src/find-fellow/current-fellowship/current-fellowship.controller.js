@@ -3,32 +3,25 @@
 
     angular
         .module('FellowshipFinder')
-        .factory('FellowshipsModel', FellowshipsModel);
+        .controller('CurrentFellowshipController', CurrentFellowshipController);
 
-    FellowshipsModel.$inject = ['$http'];
+    CurrentFellowshipController.$inject = ['CurrentFellowship']
 
-    function FellowshipsModel($http) {
-        var factory;
+    function CurrentFellowshipController(CurrentFellowship) {
+        var vm = this;
 
 
         /* ---------------------------------------- /*
-            FACTORY
+            VIEW MODEL
         /* ---------------------------------------- */
 
-        factory = {};
-
-        factory.getData = getData;
-
-        return factory;
+        vm.fellowship = CurrentFellowship.fellowship;
 
 
         /* ---------------------------------------- /*
             PUBLIC
         /* ---------------------------------------- */
 
-        function getData() {
-            return $http.get('assets/data/fellowships-global.json');
-        }
 
 
         /* ---------------------------------------- /*
