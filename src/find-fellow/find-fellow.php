@@ -30,8 +30,8 @@
     <div class="fellowship" ng-show="ffc.stateService.state == 'single'">
         <div class="fellowship__header">
             <div class="fellowship__header__info">
-                <h2 class="fellowship__header__info__title">Sydney Revival Fellowship</h2>
-                <h4 class="fellowship__header__info__sub-title">Sydney, NSW</h4>
+                <h2 class="fellowship__header__info__title">{fellowship.name}</h2>
+                <h4 class="fellowship__header__info__sub-title">{?.city}, {?.state}</h4>
             </div>
             <div class="fellowship__header__actions">
                 <div class="fellowship__footer__action">
@@ -44,28 +44,28 @@
         </div>
         <div class="fellowship__body">
             <div class="fellowship__body__info">
-                <div class="fellowship__body__info__title">Sunday: 10:30am</div>
-                <div class="fellowship__body__info__sub-title">Pst Andrew Riggs</div>
+                <div class="fellowship__body__info__title">{fellowship.meetings[0].dayOfWeek}: {fellowship.meetings[0].startTime}</div>
+                <div class="fellowship__body__info__sub-title">{contact.title + contact.name}</div>
                 <div class="fellowship__body__info__copy">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at consequatur eligendi, esse excepturi expedita fuga hic odit reiciendis suscipit.
+                    {description}
                 </div>
             </div>
             <div class="fellowship__body__references">
                 <div class="fellowship__body____references__link">
-                    <span>[icon]</span>
-                    <a href="#">Link</a>
+                    <span>ico</span>
+                    <a href="#">{address}</a>
                 </div>
                 <div class="fellowship__body____references__link">
-                    <span>[icon]</span>
-                    <a href="#">Link</a>
+                    <span>ico</span>
+                    <a href="#">{phone}</a>
                 </div>
                 <div class="fellowship__body____references__link">
-                    <span>[icon]</span>
-                    <a href="#">Link</a>
+                    <span>ico</span>
+                    <a href="#">{email}</a>
                 </div>
                 <div class="fellowship__body____references__link">
-                    <span>[icon]</span>
-                    <a href="#">Link</a>
+                    <span>ico</span>
+                    <a href="#">{social.link}</a>, <a href="#">{social.link}</a>, <a href="#">{social.link}</a>
                 </div>
             </div>
         </div>
@@ -98,10 +98,10 @@
                 <div class="ship-list__region__sub-header__title">
                     Principle Pastor
                     <label class="ship-list__region__sub-header__title__label">
-                        Pst Paul Nobel
+                        {region.pastor.name}
                     </label>
                     <a href="#" class="ship-list__region__sub-header__title__contact-icon">
-                        [mail icon]
+                        [mail icon] {region.pastor.email}
                     </a>
                 </div>
             </div>
