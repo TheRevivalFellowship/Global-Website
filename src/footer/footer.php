@@ -1,6 +1,6 @@
 <footer class="footer outer-container">
     <div class="footer__action">
-        <button class="button">Contact us</button>
+        <a class="button typeform-share link" href="https://revivalfellowship.typeform.com/to/WVOu7L" data-mode="1" target="_blank">Contact us</a>
     </div>
     <blockquote class="footer__quote">
         "Then Peter said unto them, Repent,

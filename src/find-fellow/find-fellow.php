@@ -6,17 +6,17 @@
         <h3 class="find-fellow__header__title">Find a fellowship</h3>
         <div class="find-fellow__header__actions">
             <button class="button"
-                ng-show="ffc.stateService.state == 'default'"
+                ng-if="ffc.stateService.state == 'default'"
                 ng-click="ffc.useCurrentLocation()">
                 Use current location
             </button>
             <button class="button"
-                ng-show="ffc.stateService.state == 'default'"
+                ng-if="ffc.stateService.state == 'default'"
                 ng-click="ffc.listAllFellowships()">
                 List all fellowships
             </button>
             <button class="button"
-                ng-show="ffc.stateService.state == 'list'"
+                ng-if="ffc.stateService.state == 'list'"
                 ng-click="ffc.close()">
                 Close
             </button>
@@ -24,10 +24,10 @@
     </div>
 
     <!-- LOCATING -->
-    <div class="locating" ng-show="ffc.stateService.state == 'locating'">Locating...</div>
+    <div class="locating" ng-if="ffc.stateService.state == 'locating'">Locating...</div>
 
     <!-- SINGLE LOCATED FELLOWSHIP -->
-    <div class="fellowship" ng-show="ffc.stateService.state == 'single'">
+    <div class="fellowship" ng-if="ffc.stateService.state == 'single'">
         <div class="fellowship__header">
             <div class="fellowship__header__info">
                 <h2 class="fellowship__header__info__title">{fellowship.name}</h2>
@@ -45,23 +45,23 @@
         <div class="fellowship__body">
             <div class="fellowship__body__info">
                 <div class="fellowship__body__info__title">{fellowship.meetings[0].dayOfWeek}: {fellowship.meetings[0].startTime}</div>
-                <div class="fellowship__body__info__sub-title">{contact.title + contact.name}</div>
+                <div class="fellowship__body__info__sub-title">{fellowship.contact.title + fellowship.contact.firstName + fellowship.contact.lastName}</div>
                 <div class="fellowship__body__info__copy">
-                    {description}
+                    {?.description}
                 </div>
             </div>
             <div class="fellowship__body__references">
                 <div class="fellowship__body____references__link">
                     <span>ico</span>
-                    <a href="#">{address}</a>
+                    <a href="#">{fellowship.meetings[0].address}?</a>
                 </div>
                 <div class="fellowship__body____references__link">
                     <span>ico</span>
-                    <a href="#">{phone}</a>
+                    <a href="#">{fellowship.contact.number}?</a>
                 </div>
                 <div class="fellowship__body____references__link">
                     <span>ico</span>
-                    <a href="#">{email}</a>
+                    <a href="#">{fellowship.contact.email}?</a>
                 </div>
                 <div class="fellowship__body____references__link">
                     <span>ico</span>
@@ -81,7 +81,7 @@
 
 
     <!-- SHIP LIST -->
-    <div class="ship-list" ng-show="ffc.stateService.state == 'list'">
+    <div class="ship-list" ng-if="ffc.stateService.state == 'list'">
         <div class="ship-list__region" ng-repeat="fellowship in ffc.fellowshipsData">
             <div class="ship-list__region__header"
                 ng-click="ffc.toggleRegion($event, 1)">

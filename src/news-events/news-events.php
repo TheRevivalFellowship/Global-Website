@@ -2,7 +2,7 @@
 
     <div class="news-events__header">
         <h2 class="news-events__header__title">News &amp; Events</h2>
-        <a class="news-events__header__submit">Submit Event</a>
+        <a class="news-events__header__submit typeform-share link" href="https://revivalfellowship.typeform.com/to/WVOu7L" data-mode="1" target="_blank">Submit Event</a>
     </div>
 
     <div class="news-events__main">
