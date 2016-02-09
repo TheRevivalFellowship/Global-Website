@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('FellowshipFinder')
+        .module('trf')
         .controller('FindFellowshipController', FindFellowshipController);
 
     FindFellowshipController.$inject = ['FellowshipsModel', 'CurrentFellowship', '$geolocation']

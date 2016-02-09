@@ -1,33 +1,33 @@
 <!-- FIND A FELLOWSHIP -->
 <section class="find-fellow outer-container"
-    ng-class="'find-fellow--' + ffc.stateService.state">
+    ng-class="'find-fellow--' + vm.stateService.state">
 
-    <div class="find-fellow__header" ng-hide="ffc.stateService.state == 'locating' || ffc.stateService.state == 'single'">
+    <div class="find-fellow__header" ng-if="vm.stateService.state != 'locating' || vm.stateService.state != 'single'">
         <h3 class="find-fellow__header__title">Find a fellowship</h3>
         <div class="find-fellow__header__actions">
-            <button class="button"
-                ng-if="ffc.stateService.state == 'default'"
-                ng-click="ffc.useCurrentLocation()">
+            <button class="button find-fellow__header__actions__use-loc"
+                ng-if="vm.stateService.state == 'default'"
+                ng-click="vm.useCurrentLocation()">
                 Use current location
             </button>
-            <button class="button"
-                ng-if="ffc.stateService.state == 'default'"
-                ng-click="ffc.listAllFellowships()">
+            <button class="button find-fellow__header__actions__list-all"
+                ng-if="vm.stateService.state == 'default'"
+                ng-click="vm.listAllFellowships()">
                 List all fellowships
             </button>
-            <button class="button"
-                ng-if="ffc.stateService.state == 'list'"
-                ng-click="ffc.close()">
+            <button class="button find-fellow__header__actions__close"
+                ng-if="vm.stateService.state == 'list'"
+                ng-click="vm.close()">
                 Close
             </button>
         </div>
     </div>
 
     <!-- LOCATING -->
-    <div class="locating" ng-if="ffc.stateService.state == 'locating'">Locating...</div>
+    <div class="locating" ng-if="vm.stateService.state == 'locating'">Locating...</div>
 
     <!-- SINGLE LOCATED FELLOWSHIP -->
-    <div class="fellowship" ng-if="ffc.stateService.state == 'single'">
+    <div class="fellowship" ng-if="vm.stateService.state == 'single'">
         <div class="fellowship__header">
             <div class="fellowship__header__info">
                 <h2 class="fellowship__header__info__title">{fellowship.name}</h2>
@@ -35,7 +35,7 @@
             </div>
             <div class="fellowship__header__actions">
                 <div class="fellowship__footer__action">
-                    <button class="button" ng-click="ffc.closeFellowshipSingle()">Close</button>
+                    <button class="button" ng-click="vm.closeFellowshipSingle()">Close</button>
                 </div>
                 <div class="fellowship__footer__action">
                     <a href="#">Correction</a>
@@ -71,7 +71,7 @@
         </div>
         <div class="fellowship__footer">
             <div class="fellowship__footer__action">
-                <button class="button" ng-click="ffc.closeFellowshipSingle()">Close</button>
+                <button class="button" ng-click="vm.closeFellowshipSingle()">Close</button>
             </div>
             <div class="fellowship__footer__action">
                 <a href="#">Correction</a>
@@ -81,10 +81,10 @@
 
 
     <!-- SHIP LIST -->
-    <div class="ship-list" ng-if="ffc.stateService.state == 'list'">
-        <div class="ship-list__region" ng-repeat="fellowship in ffc.fellowshipsData">
+    <div class="ship-list" ng-if="vm.stateService.state == 'list'">
+        <div class="ship-list__region" ng-repeat="fellowship in vm.fellowshipsData">
             <div class="ship-list__region__header"
-                ng-click="ffc.toggleRegion($event, 1)">
+                ng-click="vm.toggleRegion($event, 1)">
                 <div class="ship-list__region__header__title">{{fellowship.name}}</div>
                 <div class="ship-list__region__header__icon ship-list__region__header__icon--arrow">
                     <img src="assets/img/icon--arrow-down-metalic.png" alt="">
@@ -113,7 +113,7 @@
                 </h3>
                 <div class="ship-list__sub-region__fellowship"
                     ng-repeat="local_fellowship in sub_region.fellowships"
-                    ng-click="ffc.openFellowship(local_fellowship, $event, 2)">
+                    ng-click="vm.openFellowship(local_fellowship, $event, 2)">
                     <a class="ship-list__sub-region__fellowship__title">
                         {{local_fellowship.name}}
                     </a>
@@ -131,7 +131,7 @@
                     </div>
                     <div class="fellowship__header__actions">
                         <div class="fellowship__footer__action">
-                            <button class="button" ng-click="ffc.closeFellowship($event, 5)">Close</button>
+                            <button class="button" ng-click="vm.closeFellowship($event, 5)">Close</button>
                         </div>
                         <div class="fellowship__footer__action">
                             <a href="#">Correction</a>
@@ -171,7 +171,7 @@
                 </div>
                 <div class="fellowship__footer">
                     <div class="fellowship__footer__action">
-                        <button class="button" ng-click="ffc.closeFellowship($event, 4)">Close</button>
+                        <button class="button" ng-click="vm.closeFellowship($event, 4)">Close</button>
                     </div>
                     <div class="fellowship__footer__action">
                         <a href="#">Correction</a>

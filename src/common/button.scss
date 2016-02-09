@@ -13,12 +13,20 @@
     line-height: 3;
     white-space: nowrap;
 
-    padding: 0 15px;
+    padding: 0 10px;
 
     transition: background-color $timeInvisible;
 
     &:hover, &:active {
         background-color: hsla(183, 100%, 38%, 0.08); //$colorRobinsEggBlue
+    }
+
+    @include breakpoint(sm) {
+        padding: 0 12px;
+    }
+
+    @include breakpoint(sm) {
+        padding: 0 15px;
     }
 }
 

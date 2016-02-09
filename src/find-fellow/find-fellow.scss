@@ -5,8 +5,16 @@
 
 
         .find-fellow__header__title {
-            font-size: 24px;
+            font-size: 18px;
             opacity: 0.4;
             text-transform: uppercase;
             font-weight: normal;
+
+            @include breakpoint(sm) {
+                font-size: 20px;
+            }
+
+            @include breakpoint(md) {
+                font-size: 24px;
+            }
         }

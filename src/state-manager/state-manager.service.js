@@ -3,13 +3,19 @@
 
     angular
         .module('trf')
-        .factory('FellowshipsModel', FellowshipsModel);
+        .factory('StateManager', StateManager);
 
-    FellowshipsModel.$inject = ['$http'];
+    StateManager.$inject = ['CurrentFellowship'];
 
-    function FellowshipsModel($http) {
-        var factory;
+    function StateManager() {
+        var factory,
+            state;
 
+        /* ---------------------------------------- /*
+            BOOTSTRAP
+        /* ---------------------------------------- */
+
+        state = 'default';
 
         /* ---------------------------------------- /*
             FACTORY
@@ -17,7 +23,7 @@
 
         factory = {};
 
-        factory.getData = getData;
+        factory.get = get;
 
         return factory;
 
@@ -26,8 +32,8 @@
             PUBLIC
         /* ---------------------------------------- */
 
-        function getData() {
-            return $http.get('assets/data/fellowships-global.json');
+        function get() {
+            return state;
         }
 
 

@@ -16,8 +16,8 @@
                 class="header__tag__img header__tag__img--wider">
         </h2>
         <div class="header__actions">
-            <button class="header__actions__button button button--stretch" ng-click="ffc.useCurrentLocation()">Use Current Location</button>
-            <button class="header__actions__button button button--stretch" ng-click="ffc.listAllFellowships()">List All Fellowships</button>
+            <button class="header__actions__button button button--stretch" ng-click="vm.useCurrentLocation()">Use Current Location</button>
+            <button class="header__actions__button button button--stretch" ng-click="vm.listAllFellowships()">List All Fellowships</button>
         </div>
         <div class="header__country-map"></div>
     </div>

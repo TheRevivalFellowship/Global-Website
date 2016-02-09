@@ -3,32 +3,24 @@
 
     angular
         .module('trf')
-        .factory('FellowshipsModel', FellowshipsModel);
+        .controller('IndexController', IndexController);
 
-    FellowshipsModel.$inject = ['$http'];
+    IndexController.$inject = ['StateManager'];
 
-    function FellowshipsModel($http) {
-        var factory;
+    function IndexController(StateManager) {
+        var vm = this;
 
 
         /* ---------------------------------------- /*
-            FACTORY
+            VIEW MODEL
         /* ---------------------------------------- */
 
-        factory = {};
-
-        factory.getData = getData;
-
-        return factory;
+        vm.state = StateManager;
 
 
         /* ---------------------------------------- /*
             PUBLIC
         /* ---------------------------------------- */
-
-        function getData() {
-            return $http.get('assets/data/fellowships-global.json');
-        }
 
 
         /* ---------------------------------------- /*

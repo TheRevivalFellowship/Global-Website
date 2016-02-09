@@ -2,13 +2,14 @@
 
 
     .find-fellow__header {
-        display: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
-        @include breakpoint(md) {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+        margin-top: $gru20;
+        margin-bottom: $gru20;
 
+        @include breakpoint(lg) {
             margin-top: $gru40;
             margin-bottom: $gru40;
         }
@@ -24,6 +25,12 @@
             margin-left: $gru10;
         }
     }
+
+        .find-fellow__header__actions__use-loc {}
+
+        .find-fellow__header__actions__list-all {}
+
+        .find-fellow__header__actions__close {}
 
 
     /* ---------------------------------------- /*
@@ -58,7 +65,12 @@
                 .ship-list__region__header__title {}
 
 
-                .ship-list__region__header__icon {}
+                .ship-list__region__header__icon {
+                    img {
+                        display: block;
+                        max-width: 16px;
+                    }
+                }
 
 
                     .ship-list__region__header__icon--arrow {

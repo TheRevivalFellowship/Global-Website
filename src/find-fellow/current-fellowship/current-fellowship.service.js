@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('FellowshipFinder')
+        .module('trf')
         .factory('CurrentFellowship', CurrentFellowship);
 
     CurrentFellowship.$inject = [];
