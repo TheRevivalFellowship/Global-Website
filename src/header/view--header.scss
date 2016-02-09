@@ -1,4 +1,6 @@
 .header {
+    position: relative;
+    z-index: $zIndexHeader;
     padding: $gru20;
 
     @include breakpoint(md) {
@@ -8,6 +10,8 @@
 
 
     .header__container {
+        position: relative;
+        z-index: $zIndexHeader + 1;
 
         @include breakpoint(md) {
             display: flex;
@@ -47,6 +51,26 @@
     }
 
 
+        .header__tag__img {}
+
+
+            .header__tag__img--taller {
+
+                @include breakpoint(lg) {
+                    display: none;
+                }
+            }
+
+
+            .header__tag__img--wider {
+                display: none;
+
+                @include breakpoint(lg) {
+                    display: block;
+                }
+            }
+
+
     .header__actions {
         margin: auto;
         max-width: 180px;
@@ -66,3 +90,23 @@
                 margin-bottom: $gru15;
             }
         }
+
+
+    .header__country-map {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        z-index: -1;
+
+        background-position: 50% 35%;
+
+        opacity: 0.75;
+
+        @include breakpoint(md) {
+            opacity: 0.40;
+            background-position: 50% 35%;
+        }
+    }

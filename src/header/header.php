@@ -10,11 +10,15 @@
         <h2 class="header__tag">
             <img src="assets/img/title--one-fellowship-many-locations--colored--alt.svg"
                 alt="One Fellowship Many Locations"
-                class="header__tag__img">
+                class="header__tag__img header__tag__img--taller">
+            <img src="assets/img/title--one-fellowship-many-locations--colored.svg"
+                alt="One Fellowship Many Locations"
+                class="header__tag__img header__tag__img--wider">
         </h2>
         <div class="header__actions">
             <button class="header__actions__button button button--stretch" ng-click="ffc.useCurrentLocation()">Use Current Location</button>
             <button class="header__actions__button button button--stretch" ng-click="ffc.listAllFellowships()">List All Fellowships</button>
         </div>
+        <div class="header__country-map"></div>
     </div>
 </header>
