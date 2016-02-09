@@ -25,3 +25,5 @@ The central website for the whole fellowship.
 
 
 ## Todo
+
+StateManager service now in place, running through both styles and functionality top down.
