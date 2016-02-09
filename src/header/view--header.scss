@@ -1,11 +1,6 @@
 .header {
     position: relative;
     z-index: $zIndexHeader;
-    padding: $gru20;
-
-    @include breakpoint(md) {
-        padding: $gru60 0;
-    }
 }
 
 
@@ -13,10 +8,14 @@
         position: relative;
         z-index: $zIndexHeader + 1;
 
+        padding: $gru20;
+
         @include breakpoint(md) {
             display: flex;
             justify-content: space-between;
             align-items: center;
+
+            padding: $gru60 0;
         }
     }
 
@@ -95,8 +94,8 @@
     .header__country-map {
         position: absolute;
         top: 0;
-        left: 0;
-        right: 0;
+        left: 5%;
+        right: 5%;
         bottom: 0;
 
         z-index: -1;
@@ -106,7 +105,11 @@
         opacity: 0.75;
 
         @include breakpoint(md) {
+            left: 0;
+            right: 0;
+
             opacity: 0.40;
+            
             background-position: 50% 35%;
         }
     }
