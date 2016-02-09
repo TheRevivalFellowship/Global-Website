@@ -20,7 +20,7 @@ function inc_src($path) {
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 </head>
-<body ng-controller="IndexController as ic" ng-class="'js-state--' + ic.state.get()">
+<body ng-controller="IndexController as ic" ng-class="'app-state--' + ic.state.get()">
 
     <?php inc_src('header/header.php'); ?>
     <?php inc_src('find-fellow/find-fellow.php'); ?>

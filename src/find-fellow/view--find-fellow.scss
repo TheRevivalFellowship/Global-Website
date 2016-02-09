@@ -13,6 +13,14 @@
             margin-top: $gru40;
             margin-bottom: $gru40;
         }
+
+        .app-state--default & {
+            display: none;
+
+            @include breakpoint(md) {
+                display: block;
+            }
+        }
     }
 
 
