@@ -22,12 +22,14 @@ function inc_src($path) {
 </head>
 <body ng-controller="IndexController as ic" ng-class="'app-state--' + ic.state.get()">
 
-    <?php inc_src('header/header.php'); ?>
-    <?php inc_src('find-fellow/find-fellow.php'); ?>
-    <?php inc_src('social/social.php'); ?>
-    <?php inc_src('news-events/news-events.php'); ?>
-    <?php inc_src('links/links.php'); ?>
-    <?php inc_src('footer/footer.php'); ?>
+    <main ng-controller="FindFellowshipController as vm">
+        <?php inc_src('header/header.php'); ?>
+        <?php inc_src('find-fellow/find-fellow.php'); ?>
+        <?php inc_src('social/social.php'); ?>
+        <?php inc_src('news-events/news-events.php'); ?>
+        <?php inc_src('links/links.php'); ?>
+        <?php inc_src('footer/footer.php'); ?>
+    </main>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
     <script src="assets/js/ngGeolocation.min.js"></script>

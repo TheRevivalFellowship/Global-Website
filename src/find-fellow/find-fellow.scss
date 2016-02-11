@@ -15,6 +15,10 @@
             }
 
             @include breakpoint(md) {
+                font-size: 22px;
+            }
+
+            @include breakpoint(lg) {
                 font-size: 24px;
             }
         }

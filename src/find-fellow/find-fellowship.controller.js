@@ -5,19 +5,17 @@
         .module('trf')
         .controller('FindFellowshipController', FindFellowshipController);
 
-    FindFellowshipController.$inject = ['FellowshipsModel', 'CurrentFellowship', '$geolocation']
+    FindFellowshipController.$inject = ['FellowshipsModel', 'CurrentFellowship', '$geolocation', 'StateManager']
 
-    function FindFellowshipController(FellowshipsModel, CurrentFellowship, $geolocation) {
+    function FindFellowshipController(FellowshipsModel, CurrentFellowship, $geolocation, StateManager) {
         var vm = this,
-            stateService,
-            fellowshipsData,
             classes,
-            positionService;
+            positionService,
+            constants;
 
-        stateService = {
-            // [default, locating, single, list]
-            state: 'default'
-        };
+        /* ---------------------------------------- /*
+            BOOTSTRAP
+        /* ---------------------------------------- */
 
         classes = {
             regionOpen: 'ship-list__region--regions-open',
@@ -36,12 +34,16 @@
                 // Error :(
             });
 
+        constants = {
+            locationRequestTimeout: 30000 // 30 seconds
+        };
+
 
         /* ---------------------------------------- /*
             VIEW MODEL
         /* ---------------------------------------- */
 
-        vm.stateService = stateService;
+        vm.state = StateManager;
         vm.fellowshipsData = null;
 
         vm.useCurrentLocation = useCurrentLocation;
@@ -60,28 +62,17 @@
         /* ---------------------------------------- */
 
         function useCurrentLocation() {
-            stateService.state = 'locating';
-
-            $geolocation.getCurrentPosition({
-                timeout: 30000 // 30 seconds
-            })
-                .then(function gotPositionSuccesfully(position) {
-                    stateService.state = 'single';
-                    positionService.position = position;
-                    console.log(position);
-                })
-                .catch(function unableToGetPosition() {
-                    stateService.state = 'list';
-                });
+            StateManager.set('locating');
+            getLocation();
         }
 
         function listAllFellowships() {
-            stateService.state = 'list';
+            StateManager.set('list-fellowships');
 
         }
 
         function close() {
-            stateService.state = 'default';
+            StateManager.set('default');
         }
 
         function openRegion(event, numParents) {
@@ -118,7 +109,7 @@
         function openFellowship(fellowshipObject, event, numParents) {
             var region = getParent(event, numParents);
 
-            CurrentFellowship.setCurrentFellowship(fellowshipObject)
+            CurrentFellowship.setCurrentFellowship(fellowshipObject);
 
             region.removeClass(classes.regionOpen);
             region.addClass(classes.fellowshipOpen);
@@ -132,13 +123,26 @@
         }
 
         function closeFellowshipSingle() {
-            stateService.state = 'default';
+            StateManager.set('default');
         }
 
 
         /* ---------------------------------------- /*
             PRIVATE
         /* ---------------------------------------- */
+
+        function getLocation() {
+            $geolocation.getCurrentPosition({
+                timeout: constants.locationRequestTimeout
+            })
+                .then(function gotPositionSuccesfully(position) {
+                    StateManager.set('single-fellowship');
+                    positionService.position = position;
+                })
+                .catch(function unableToGetPosition() {
+                    StateManager.set('list-fellowships');
+                });
+        }
 
         function getParent(event, numParents) {
             var element, parent;

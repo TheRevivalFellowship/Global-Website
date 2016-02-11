@@ -1,22 +1,22 @@
 <!-- FIND A FELLOWSHIP -->
 <section class="find-fellow outer-container"
-    ng-class="'find-fellow--' + vm.stateService.state">
+    ng-class="'find-fellow--' + vm.state.get()">
 
-    <div class="find-fellow__header" ng-if="vm.stateService.state != 'locating' || vm.stateService.state != 'single'">
+    <div class="find-fellow__header" ng-if="vm.state.get() != 'locating' || vm.state.get() != 'single-fellowship'">
         <h3 class="find-fellow__header__title">Find a fellowship</h3>
         <div class="find-fellow__header__actions">
             <button class="button find-fellow__header__actions__use-loc"
-                ng-if="vm.stateService.state == 'default'"
+                ng-if="vm.state.get() == 'default'"
                 ng-click="vm.useCurrentLocation()">
                 Use current location
             </button>
             <button class="button find-fellow__header__actions__list-all"
-                ng-if="vm.stateService.state == 'default'"
+                ng-show="vm.state.get() == 'default'"
                 ng-click="vm.listAllFellowships()">
                 List all fellowships
             </button>
             <button class="button find-fellow__header__actions__close"
-                ng-if="vm.stateService.state == 'list'"
+                ng-show="vm.state.get() == 'list-fellowships'"
                 ng-click="vm.close()">
                 Close
             </button>
@@ -24,10 +24,10 @@
     </div>
 
     <!-- LOCATING -->
-    <div class="locating" ng-if="vm.stateService.state == 'locating'">Locating...</div>
+    <div class="locating" ng-if="vm.state.get() == 'locating'">Locating...</div>
 
     <!-- SINGLE LOCATED FELLOWSHIP -->
-    <div class="fellowship" ng-if="vm.stateService.state == 'single'">
+    <div class="fellowship" ng-if="vm.state.get() == 'single-fellowship'">
         <div class="fellowship__header">
             <div class="fellowship__header__info">
                 <h2 class="fellowship__header__info__title">{fellowship.name}</h2>
@@ -81,7 +81,7 @@
 
 
     <!-- SHIP LIST -->
-    <div class="ship-list" ng-if="vm.stateService.state == 'list'">
+    <div class="ship-list" ng-if="vm.state.get() == 'list-fellowships'">
         <div class="ship-list__region" ng-repeat="fellowship in vm.fellowshipsData">
             <div class="ship-list__region__header"
                 ng-click="vm.toggleRegion($event, 1)">

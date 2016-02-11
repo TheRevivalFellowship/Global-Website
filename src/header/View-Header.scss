@@ -42,6 +42,7 @@
     .header__tag {
         max-width: 205px;
         margin: 0 auto;
+        margin-bottom: $gru20;
 
         @include breakpoint(md) {
             max-width: 500px;
