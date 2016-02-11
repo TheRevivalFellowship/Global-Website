@@ -17,26 +17,31 @@
         <div class="ship-list__region__sub-header"
             ng-show="vm.state.get() == 'list-fellowships'">
             <div class="ship-list__region__sub-header__title">
-                Principle Pastor
-                <label class="ship-list__region__sub-header__title__label">
-                    {region.pastor.name}
-                </label>
-                <a href="#" class="ship-list__region__sub-header__title__contact-icon">
-                    [mail icon] {region.pastor.email}
+                Principle Pastor:
+                <a ng-href="mailto:{{fellowship.principlePastor.email}}" class="ship-list__region__sub-header__title__link">
+                    <span class="ship-list__region__sub-header__title__label">
+                        {{fellowship.principlePastor.name}}
+                    </span>
+                    <span class="ship-list__region__sub-header__title__contact-icon">
+                        <i class="fa fa-envelope"></i>
+                    </span>
                 </a>
             </div>
         </div>
 
         <!-- SUB REGIONS -->
-        <div class="ship-list__sub-region" ng-repeat="sub_region in fellowship.subRegion">
+        <div class="ship-list__sub-region" ng-repeat="subRegion in fellowship.subRegion">
             <h3 class="ship-list__sub-region__title">
-                {{sub_region.name}}
+                {{subRegion.name}}
             </h3>
             <div class="ship-list__sub-region__fellowship"
-                ng-repeat="local_fellowship in sub_region.fellowships"
+                ng-repeat="local_fellowship in subRegion.fellowships"
                 ng-click="vm.openFellowship(local_fellowship, $event, 2)">
                 <a class="ship-list__sub-region__fellowship__title">
-                    {{local_fellowship.name}}
+                    <span>{{local_fellowship.name}}</span>
+                    <img src="assets/img/icon-arrow-right.svg"
+                    class="ship-list__sub-region__fellowship__title__arrow"
+                    alt="">
                 </a>
             </div>
         </div>

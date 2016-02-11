@@ -1669,7 +1669,11 @@
           }
         ]
       }
-    ]
+    ],
+    "principlePastor": {
+      "name": "Paul Noble",
+      "email": "paul.noble@therevivalfellowship.com"
+    }
   },
   {
     "name": "Africa",
