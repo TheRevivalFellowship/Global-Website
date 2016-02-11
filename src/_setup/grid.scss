@@ -54,3 +54,9 @@ $grid-LargeDesktop: 680px + ($grid-Padding * 2);
     .outer-container--cleared {
         @include clearfix;
     }
+
+
+    .outer-container--no-padding {
+        padding-left: 0;
+        padding-right: 0;
+    }

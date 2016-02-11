@@ -22,7 +22,7 @@ function inc_src($path) {
 </head>
 <body ng-controller="IndexController as ic" ng-class="'app-state--' + ic.state.get()">
 
-    <main ng-controller="FindFellowshipController as vm">
+    <main ng-controller="FindFellowshipController as vm" class="ng-cloak">
         <?php inc_src('header/header.php'); ?>
         <?php inc_src('find-fellow/find-fellow.php'); ?>
         <?php inc_src('social/social.php'); ?>

@@ -15,11 +15,17 @@
             cursor: pointer;
 
             &:hover,
-
             .ship-list__region--regions-open &,
             .ship-list__region--fellowship-open & {
                 background-color: $colorRobinsEggBlue;
                 color: $colorWhite;
+            }
+
+            // After border:
+            &:after {
+                content: '';
+                height: 1px;
+                background-color: $colorAlto;
             }
         }
 

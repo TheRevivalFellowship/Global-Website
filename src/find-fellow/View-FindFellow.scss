@@ -10,8 +10,8 @@
         margin-bottom: $gru20;
 
         @include breakpoint(lg) {
-            margin-top: $gru40;
-            margin-bottom: $gru40;
+            margin-top: $gru20;
+            margin-bottom: $gru20;
         }
 
         .app-state--default & {
@@ -58,15 +58,45 @@
     .ship-list {}
 
 
-        .ship-list__region {}
+        .ship-list__region {
+            padding: 0 15px;
+        }
 
 
             .ship-list__region__header {
-                padding: 15px 15px 10px;
+                position: relative;
 
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+
+                padding: 10px 30px;
+
+                // After border:
+                &:after {
+                    position: absolute;
+                    left: 30px;
+                    right: 30px;
+                    bottom: 10px;
+                    display: block;
+                }
+
+                &:hover,
+                .ship-list__region--regions-open &,
+                .ship-list__region--fellowship-open & {
+
+                    // After border:
+                    &:after {
+                        display: none;
+                    }
+                }
+            }
+
+
+            .ship-list__region__header,
+            .ship-list__region__sub-header {
+                margin-left: -15px;
+                margin-right: -15px;
             }
 
 
@@ -102,10 +132,9 @@
             .ship-list__region__sub-header {
                 display: none; // Default
 
-                padding: 1em; // Temp
+                padding: 10px 30px;
 
-                .ship-list__region--regions-open &,
-                .ship-list__region--fellowship-open & {
+                .ship-list__region--regions-open & {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
