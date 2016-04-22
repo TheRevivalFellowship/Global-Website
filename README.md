@@ -18,6 +18,17 @@ The central website for the whole fellowship.
 - Compile, concatinate and compress SCSS
 - Concatinate and uglify JS
 
+## Git branching workflow
+`master` -> `dev` -> `feature-xyz` -> `dev` -> `master`
+
+ - **`master`** = Live on `production` and any `staging` servers.
+ - **`dev`** = Live `dev` servers, merged back into `master`, default branch.
+ - **`feature-xyz`** `local` branch off of `dev`, per feature, pull requested into `dev`, then deleted.
+
+### Branch Naming convention
+ - Developer's Initials - Feature and/or Purpose - Date created.
+ - `BF-FixFellowshipFinderGeoLogic-22Apr16`
+
 
 ## Code guidelines used
 - http://cssguidelin.es
