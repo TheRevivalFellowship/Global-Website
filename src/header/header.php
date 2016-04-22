@@ -18,10 +18,12 @@
                 class="header__tag__img header__tag__img--wider">
         </h2>
 
+        <?php /*
         <div class="header__actions" ng-show="vm.state.get() == 'default'">
             <button class="header__actions__button button button--stretch" ng-click="vm.useCurrentLocation()">Use Current Location</button>
             <button class="header__actions__button button button--stretch" ng-click="vm.listAllFellowships()">List All Fellowships</button>
         </div>
+        */ ?>
 
         <div class="header__country-map"></div>
 

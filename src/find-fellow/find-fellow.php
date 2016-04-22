@@ -1,3 +1,4 @@
+<?php /*
 <!-- FIND A FELLOWSHIP -->
 <section class="find-fellow outer-container">
 
@@ -94,3 +95,4 @@
     <?php include 'ship-list/ship-list.php'; ?>
 
 </section>
+*/ ?>
