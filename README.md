@@ -1,5 +1,12 @@
 # Global-Website
 The central website for the whole fellowship.
+---
+
+# GUI DEV SETUP
+
+
+---
+# TECH DEV SETUP
 
 ## To set up build automation
 - Run `vagrant up` to boot up VM
@@ -17,6 +24,7 @@ The central website for the whole fellowship.
 ## Build tools will
 - Compile, concatinate and compress SCSS
 - Concatinate and uglify JS
+
 
 ## Git branching workflow
 `master` -> `dev` -> `feature-xyz` -> `dev` -> `master`
