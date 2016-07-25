@@ -33,15 +33,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/public\/assets\/css\/website.min.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/assets\/css\/website.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/public\/assets\/data\/fellowships-global.json": {
 		"fileType": 524288,
 		"ignore": 1,

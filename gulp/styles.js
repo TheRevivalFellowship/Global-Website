@@ -17,7 +17,7 @@ gulp.task('styles', function () {
         // path.join('!' + conf.paths.src, '/_setup/**/*'), // Ignore files in _setup
         // path.join(conf.paths.src, '/**/*.scss') // Grab all other .scss files
     ])
-        .pipe($.concat('website.min.css')) // Concat all src files into one for scope
+        .pipe($.concat('index.min.css')) // Concat all src files into one for scope
         .pipe($.sass(sassOptions)).on('error', conf.errorHandler('Sass'))
         .pipe($.autoprefixer()).on('error', conf.errorHandler('Autoprefixer'))
         .pipe(gulp.dest(path.join(conf.paths.dist, '/css')))
