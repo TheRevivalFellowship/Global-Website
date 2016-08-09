@@ -1,0 +1,280 @@
+.find-fellow {}
+
+
+    .find-fellow__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-top: $gru20;
+        margin-bottom: $gru20;
+
+        @include breakpoint(lg) {
+            margin-top: $gru20;
+            margin-bottom: $gru20;
+        }
+
+        .app-state--default & {
+            display: none;
+
+            @include breakpoint(md) {
+                display: flex;
+            }
+        }
+    }
+
+
+    .find-fellow__header__actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .button {
+            margin-left: $gru10;
+        }
+    }
+
+        .find-fellow__header__actions__use-loc {}
+
+        .find-fellow__header__actions__list-all {}
+
+        .find-fellow__header__actions__close {}
+
+
+    /* ---------------------------------------- /*
+        LOCATING
+    /* ---------------------------------------- */
+
+    .locating {
+        padding: 2em;
+        margin: 1em;
+    }
+
+
+    /* ---------------------------------------- /*
+        (FELLOW)SHIP LIST
+    /* ---------------------------------------- */
+
+    .ship-list {}
+
+
+        .ship-list__region {
+            padding: 0 15px;
+        }
+
+
+            .ship-list__region__header {
+                position: relative;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                padding: 10px 30px;
+
+                // After border:
+                &:after {
+                    position: absolute;
+                    left: 30px;
+                    right: 30px;
+                    bottom: 10px;
+                    display: block;
+                }
+
+                .ship-list__region--regions-open &,
+                .ship-list__region--fellowship-open & {
+
+                    // After border:
+                    &:after {
+                        display: none;
+                    }
+                }
+            }
+
+
+            .ship-list__region__header,
+            .ship-list__region__sub-header {
+                margin-left: -15px;
+                margin-right: -15px;
+            }
+
+
+                .ship-list__region__header__title {}
+
+
+                .ship-list__region__header__icon {
+                    img {
+                        display: block;
+                        max-width: 16px;
+                    }
+                }
+
+
+                    .ship-list__region__header__icon--arrow {
+
+                        .ship-list__region--regions-open &,
+                        .ship-list__region--fellowship-open & {
+                            display: none;
+                        }
+                    }
+
+                    .ship-list__region__header__icon--close {
+                        display: none; // Default
+
+                        .ship-list__region--regions-open &,
+                        .ship-list__region--fellowship-open & {
+                            display: block;
+                        }
+                    }
+
+
+            .ship-list__region__sub-header {
+                display: none; // Default
+
+                padding: 10px 30px;
+
+                .ship-list__region--regions-open & {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+            }
+
+
+                .ship-list__region__sub-header__title__link {
+                    display: inline-block;
+                    margin-left: 5px;
+                }
+
+
+                .ship-list__region__sub-header__title__contact-icon {
+                    display: inline-block;
+                    margin-left: 5px;
+                }
+
+
+        .ship-list__sub-region {
+            display: none; // Default
+
+            margin: 1em; // Temp
+            margin-bottom: 2em; // Temp
+
+            .ship-list__region--regions-open & {
+                display: block;
+            }
+        }
+
+
+            .ship-list__sub-region__title {
+                margin: 20px 0 10px;
+
+                @include breakpoint(sm) {
+                    margin: 20px 0 15px;
+                }
+            }
+
+
+            .ship-list__sub-region__fellowship {
+
+            }
+
+
+                .ship-list__sub-region__fellowship__title {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    padding: 2px 30px;
+
+                    margin-left: -30px;
+                    margin-right: -30px;
+
+                    @include breakpoint(sm) {
+                        padding: 4px 30px;
+                    }
+
+                    @include breakpoint(md) {
+                        padding: 5px 30px;
+                    }
+                }
+
+
+                    .ship-list__sub-region__fellowship__title__arrow {
+                        display: block;
+                        max-width: 15px;
+                        max-height: 15px;
+
+                        @include breakpoint(sm) {
+                            max-width: 17px;
+                            max-height: 17px;
+                        }
+
+                        @include breakpoint(md) {
+                            max-width: 20px;
+                            max-height: 20px;
+                        }
+                    }
+
+
+    /* ---------------------------------------- /*
+        FELLOWSHIP
+    /* ---------------------------------------- */
+
+    .fellowship {
+        padding: 1em; // Temp
+
+        // Within .ship-list
+        .ship-list & {
+            display: none; // Default
+
+        }
+
+        .ship-list__region--fellowship-open & {
+            display: block;
+        }
+
+    }
+
+
+        .fellowship__header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+            .fellowship__header__info {}
+
+
+            .fellowship__header__actions {
+                display: none;
+
+                @include breakpoint(md) {
+                    display: block;
+                }
+            }
+
+
+        .fellowship__body {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+            .fellowship__body__info {
+                width: 50%;
+            }
+
+
+            .fellowship__body__references {
+                width: 50%;
+            }
+
+
+        .fellowship__footer {
+
+            @include breakpoint(md) {
+                display: none;
+            }
+        }

@@ -1,0 +1,122 @@
+.ship-list {}
+
+
+    .ship-list__region {}
+
+
+        .ship-list__region--regions-open,
+        .ship-list__region--fellowship-open {
+            background-color: $colorWildSand;
+        }
+
+
+        .ship-list__region__header {
+            color: $colorFlint;
+            cursor: pointer;
+
+            &:hover,
+            .ship-list__region--regions-open &,
+            .ship-list__region--fellowship-open & {
+                background-color: $colorRobinsEggBlue;
+                color: $colorWhite;
+            }
+
+            // After border:
+            &:after {
+                content: '';
+                height: 1px;
+                background-color: hsla(0, 0%, 0%, 0.2); //$colorAlto;
+            }
+        }
+
+
+            .ship-list__region__header__title {
+                font-size: 30px;
+
+                @include breakpoint(sm) {
+                    font-size: 32px;
+                }
+            }
+
+
+            .ship-list__region__header__icon {}
+
+
+            .ship-list__region__sub-header {
+                background-color: $colorTuna;
+                color: $colorRobinsEggBlue;
+
+                font-size: 14px;
+
+                @include breakpoint(sm) {
+                    font-size: 16px;
+                }
+
+                @include breakpoint(md) {
+                    font-size: 18px;
+                }
+            }
+
+                .ship-list__region__sub-header__title__link {
+                    color: $colorRobinsEggBlue;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: $colorWhite;
+                    }
+                }
+
+                .ship-list__region__sub-header__title__label {
+                    font-weight: bold;
+                }
+
+
+                .ship-list__region__sub-header__title__contact-icon {
+                }
+
+
+    .ship-list__sub-region {}
+
+
+        .ship-list__sub-region__title {
+            font-size: 18px;
+            opacity: 0.7;
+            letter-spacing: 0.02em;
+
+            @include breakpoint(sm) {
+                font-size: 20px;
+            }
+
+            @include breakpoint(md) {
+                font-size: 24px;
+            }
+        }
+
+
+        .ship-list__sub-region__fellowship {
+        }
+
+
+            .ship-list__sub-region__fellowship__title {
+                //text-decoration: underline;
+                letter-spacing: 0.02em;
+
+                font-size: 16px;
+                color: $colorRobinsEggBlue;
+
+                &:hover {
+                    color: darken($colorRobinsEggBlue, 10);
+                    background-color: darken($colorWildSand, 10);
+                }
+
+                @include breakpoint(sm) {
+                    font-size: 18px;
+                }
+
+                @include breakpoint(md) {
+                    font-size: 20px;
+                }
+
+            }
+
+                .ship-list__sub-region__fellowship__title__arrow {}

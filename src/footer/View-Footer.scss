@@ -1,0 +1,29 @@
+.footer {
+    margin-top: $gru40 * 2;
+    margin-bottom: $gru40 * 2;
+
+    text-align: center;
+}
+
+
+    .footer__action {
+        margin-bottom: $gru60;
+    }
+
+
+    .footer__quote {
+        max-width: 320px;
+        margin: auto;
+        margin-bottom: $gru40;
+    }
+
+
+        .footer__quote__author {
+            display: block;
+            margin-top: $gru5;
+        }
+
+
+    .footer__icon {
+        max-width: 32px;
+    }

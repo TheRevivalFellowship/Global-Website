@@ -1,0 +1,19 @@
+.footer {}
+
+
+    .footer__quote {
+        font-size: 13px;
+        font-style: italic;
+        color: $colorLividBrown;
+
+        @include breakpoint(md) {
+            font-size: 15px;
+        }
+    }
+    
+    
+        .footer__quote__author {
+            color: $colorRoseOfSharon;
+            font-size: 11px;
+            font-style: normal;
+        }

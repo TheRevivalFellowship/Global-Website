@@ -1,0 +1,74 @@
+/* ---------------------------------------- /*
+   VARIABLES
+/* ---------------------------------------- */
+
+
+/**
+ * COLORS
+ */
+$colorWhite:            hsla(0,0%,100%,1);
+$colorAlto:             hsla(0, 0%, 86%, 1);
+$colorSoftPeach:        hsla(320, 21%, 95%, 1);
+$colorRobinsEggBlue:    hsla(183, 100%, 38%, 1);
+$colorCanonPink:        hsla(321, 34%, 38%, 1);
+$colorPistachio:        hsla(69, 97%, 39%, 1);
+$colorLividBrown:       hsla(321, 34%, 23%, 1);
+$colorRoseOfSharon:     hsla(24, 100%, 38%, 1);
+$colorFlint:            hsla(40, 7%, 42%, 1);
+$colorWildSand:         hsla(0, 0%, 96%, 1);
+$colorTuna:             hsla(250, 10%, 23%, 1);
+$colorAquaSpring:       hsla(180, 52%, 94%, 1);
+
+
+/**
+ * Z-INDICES
+ */
+$zIndexHeader: 500;
+
+
+/* ---------------------------------------- /*
+   TEXT
+/* ---------------------------------------- */
+
+// Fonts
+
+
+// Times
+$timeQuick: 100ms;
+$timeMovement: 185ms;
+$timeInvisible: 80ms;
+$timeNull: 0ms;
+
+
+// Letter spacing
+$letterSpacingSmall: 0.04em;
+$letterSpacingMedium: 0.1em;
+$letterSpacingLarge: 0.2em;
+$letterSpacingHuge: 0.3em;
+
+
+/* ---------------------------------------- /*
+   SIZES AND MEASUREMENTS
+/* ---------------------------------------- */
+
+// Radials
+$radiusTiny: 5px;
+$radiusSmall: 10px;
+$radiusMedium: 15px;
+
+
+// GRID UNIT: gru
+$gru2: 2px;
+$gru5: 5px;
+$gru10: 10px;
+$gru15: 15px;
+$gru20: 20px;
+$gru30: 30px;
+$gru40: 40px;
+$gru45: 45px;
+$gru60: 60px;
+$gru100: 100px;
+
+
+
+

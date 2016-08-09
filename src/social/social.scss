@@ -1,0 +1,13 @@
+.social {}
+
+
+    .social__icon {}
+
+
+        .social__icon__img {
+            transition: transform $timeMovement;
+
+            .social__icon:hover & {
+                transform: scale(1.06);
+            }
+        }

@@ -1,0 +1,56 @@
+.news-events {}
+
+
+    .news-events__header {}
+
+
+        .news-events__header__title {
+            font-size: 11px;
+            color: $colorRobinsEggBlue;
+            text-transform: uppercase;
+            font-weight: normal;
+
+            margin: $gru20 0;
+
+            @include breakpoint(md) {
+                font-size: 15px;
+            }
+        }
+
+
+        .news-events__header__submit {
+            font-size: 11px;
+            text-transform: uppercase;
+            opacity: 0.3;
+
+            text-decoration: underline;
+
+            &:hover {
+                opacity: 0.5;
+            }
+
+            @include breakpoint(md) {
+                font-size: 15px;
+            }
+    }
+
+
+    .news-events__main {}
+
+
+        .news-events__main__info {}
+
+
+            .news-events__main__info__copy {
+                font-size: 13px;
+                color: $colorCanonPink;
+
+                @include breakpoint(md) {
+                    font-size: 25px;
+                }
+
+                a {
+                    color: $colorPistachio;
+                    text-decoration: underline;
+                }
+            }

@@ -1,0 +1,2930 @@
+[
+  {
+    "name": "Australia",
+    "subRegion": [
+      {
+        "name": "Australian Capital Territory",
+        "fellowships": [
+          {
+            "name": "Belconnen (North)",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "David",
+              "lastName": "Sunderland",
+              "number": "6176-0227",
+              "email": "pr.davidsunderland@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Revival Fellowship Hall\r\n12 Chandler St, Belconnen ACT 2617",
+                  "longitude": 149.0693516,
+                  "latitude": -35.2385132
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              }
+            ]
+          },
+          {
+            "name": "Tuggeranong (South)",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Michael",
+              "lastName": "Nagy",
+              "number": "6281-1553",
+              "email": "pr.michaelnagy@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Revival Fellowship Hall,\r\n100 Deamer Cres, Chisholm ACT 2905",
+                  "longitude": 149.128823,
+                  "latitude": -35.430261
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "New South Wales",
+        "fellowships": [
+          {
+            "name": "Albury - Wodonga",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Rob",
+              "lastName": "Angus",
+              "number": "6040-2094",
+              "email": "pr.robangus@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "CWA Hall 561 Kiewa St, Albury NSW 2640",
+                  "longitude": 146.915661,
+                  "latitude": -36.077326
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              },
+              {
+                "address": {
+                  "text": "CWA Hall 561 Kiewa St, Albury NSW 2640",
+                  "longitude": 146.915661,
+                  "latitude": -36.077326
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          },
+          {
+            "name": "Armidale",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Jeff",
+              "lastName": "Mason",
+              "number": "6775-2515",
+              "email": "pr.jeffmason@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "New England Masonic Village Hall,\r\nCooks Road, Armidale",
+                  "longitude": 151.6669644,
+                  "latitude": -30.5143425
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10AM"
+              }
+            ]
+          },
+          {
+            "name": "Bathurst",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Graham",
+              "lastName": "Webster",
+              "number": "6933-1461",
+              "email": "pr.grahamwebster@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Wagga Wagga Revival Fellowship Hall,\r\n9 Gardiner St, North Wagga Wagga NSW 2650",
+                  "longitude": 147.372916,
+                  "latitude": -35.094338
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              }
+            ]
+          },
+          {
+            "name": "Central Coast",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Peter",
+              "lastName": "Moore",
+              "number": "4342-8923",
+              "email": "pr.petermoore@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Gosford East Public School,\r\nYork St & Webb Streets, East Gosford NSW 2250",
+                  "longitude": 151.3515742,
+                  "latitude": -33.4392063
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              },
+              {
+                "address": {
+                  "text": "Gosford East Public School,\r\nYork St & Webb Streets, East Gosford NSW 2250",
+                  "longitude": 151.3515742,
+                  "latitude": -33.4392063
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:30PM"
+              }
+            ]
+          },
+          {
+            "name": "Coffs Harbour",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Lyle",
+              "lastName": "Willis",
+              "number": "6658-4774",
+              "email": "pr.lylewillis@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Boambee East Community Centre\r\nBruce King Dr, Boambee East NSW 2452",
+                  "longitude": 153.0742267,
+                  "latitude": -30.3445647
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "11:00AM"
+              }
+            ]
+          },
+          {
+            "name": "Cooma",
+            "contact": null,
+            "meetings": [ ]
+          },
+          {
+            "name": "Goulburn",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Craig",
+              "lastName": "Southwell",
+              "number": "4845-1495",
+              "email": "pr.craigsouthwell@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Goulburn Revival Fellowship Hall,\r\n34 River Street, Goulburn NSW 2580",
+                  "longitude": 149.6970643,
+                  "latitude": -34.7480461
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              }
+            ]
+          },
+          {
+            "name": "Lismore",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Peter",
+              "lastName": "Miller",
+              "number": "6624-4491,  Mobile  0414-512-784",
+              "email": "pr.petermiller@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Revival Hall\r\n3 Carson St, Goonellabah NSW 2480",
+                  "longitude": 153.346469,
+                  "latitude": -28.81966
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "3:00PM"
+              },
+              {
+                "address": {
+                  "text": "Revival Hall\r\n3 Carson St, Goonellabah NSW 2480",
+                  "longitude": 153.346469,
+                  "latitude": -28.81966
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "6:00PM"
+              }
+            ]
+          },
+          {
+            "name": "Merimbula",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Grant",
+              "lastName": "Medway",
+              "number": "4474-0037",
+              "email": "pr.grantmedway@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Scout Hall, Shore Street, Moruya",
+                  "longitude": 150.0764119,
+                  "latitude": -35.9075366
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              }
+            ]
+          },
+          {
+            "name": "Moruya",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Grant",
+              "lastName": "Medway",
+              "number": "4474-0037",
+              "email": "pr.grantmedway@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Scout Hall, Shore Street, Moruya",
+                  "longitude": 150.0764119,
+                  "latitude": -35.9075366
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              }
+            ]
+          },
+          {
+            "name": "Newcastle",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Mark",
+              "lastName": "Hall",
+              "number": "4946-1687",
+              "email": "pr.markhall@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Garden Suburb Public School,\r\nProspect Rd, Garden Suburb NSW 2289",
+                  "longitude": 151.6782166,
+                  "latitude": -32.9440547
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              }
+            ]
+          },
+          {
+            "name": "Hunter Valley",
+            "contact": {
+              "title": "Contact",
+              "firstName": "Shaun",
+              "lastName": "Radford",
+              "number": "4938-3254",
+              "email": "shaunradford@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Garden Suburb Public School,\r\nProspect Rd, Garden Suburb NSW 2289",
+                  "longitude": 151.6782166,
+                  "latitude": -32.9440547
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              }
+            ]
+          },
+          {
+            "name": "Port Macquarie",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Greg",
+              "lastName": "Frost",
+              "number": "6582-5074",
+              "email": "pr.gregfrost@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "11 Horton St, Port Macquarie NSW 2444",
+                  "longitude": 152.907805,
+                  "latitude": -31.428761
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              }
+            ]
+          },
+          {
+            "name": "Shoalhaven",
+            "contact": {
+              "title": "Contact",
+              "firstName": "Chris",
+              "lastName": "Brown",
+              "number": "4421-3019",
+              "email": "chrisbrown@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Huskisson Community Centre,\r\n17 Dent St, Huskisson NSW 2540",
+                  "longitude": 150.667027,
+                  "latitude": -35.035064
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "3:00PM"
+              }
+            ]
+          },
+          {
+            "name": "Sydney",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Andrew",
+              "lastName": "Riggs",
+              "number": "9591-5487",
+              "email": "pr.andrewriggs@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Concord Community Centre,\r\n1A Gipps St, Concord NSW 2137",
+                  "longitude": 151.107601,
+                  "latitude": -33.865986
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              },
+              {
+                "address": {
+                  "text": "Concord Community Centre,\r\n1A Gipps St, Concord NSW 2137",
+                  "longitude": 151.107601,
+                  "latitude": -33.865986
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:30PM"
+              }
+            ]
+          },
+          {
+            "name": "Tamworth",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Jeff",
+              "lastName": "Mason",
+              "number": "6775-2515",
+              "email": "pr.jeffmason@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "New England Masonic Village Hall,\r\nCooks Road, Armidale",
+                  "longitude": 151.6669644,
+                  "latitude": -30.5143425
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10AM"
+              }
+            ]
+          },
+          {
+            "name": "Tumut",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Darrell",
+              "lastName": "Griffiths",
+              "number": "0400-605-332",
+              "email": "pr.darrellgriffiths@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Adelong Community Centre,\r\n5 Adelong Rd, Tumut NSW 2720",
+                  "longitude": 148.2150922,
+                  "latitude": -35.2951904
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "11:00AM"
+              },
+              {
+                "address": {
+                  "text": "Adelong Community Centre,\r\n5 Adelong Rd, Tumut NSW 2720",
+                  "longitude": 148.2150922,
+                  "latitude": -35.2951904
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "2:00PM"
+              }
+            ]
+          },
+          {
+            "name": "Wagga Wagga",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Graham",
+              "lastName": "Webster",
+              "number": "6933-1461",
+              "email": "pr.grahamwebster@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Wagga Wagga Revival Fellowship Hall,\r\n9 Gardiner St, North Wagga Wagga NSW 2650",
+                  "longitude": 147.372916,
+                  "latitude": -35.094338
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              }
+            ]
+          },
+          {
+            "name": "Wollongong",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Tim",
+              "lastName": "Rogers",
+              "number": "0418-832-391",
+              "email": "pr.timrogers@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Corrimal Community Centre,\r\n15 Short St, Corrimal NSW 2518",
+                  "longitude": 150.89813,
+                  "latitude": -34.37543
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "2:00PM"
+              },
+              {
+                "address": {
+                  "text": "Corrimal Community Centre,\r\n15 Short St, Corrimal NSW 2518",
+                  "longitude": 150.89813,
+                  "latitude": -34.37543
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:15PM"
+              },
+              {
+                "address": {
+                  "text": "Corrimal Community Centre,\r\n15 Short St, Corrimal NSW 2518",
+                  "longitude": 150.89813,
+                  "latitude": -34.37543
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": ""
+              }
+            ]
+          },
+          {
+            "name": "Young",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Graham",
+              "lastName": "Webster",
+              "number": "6933-1461",
+              "email": "pr.grahamwebster@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Wagga Wagga Revival Fellowship Hall,\r\n9 Gardiner St, North Wagga Wagga NSW 2650",
+                  "longitude": 147.372916,
+                  "latitude": -35.094338
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Northern Territory",
+        "fellowships": [
+          {
+            "name": "Alice Springs",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "John",
+              "lastName": "Mennie",
+              "number": "8952-5717",
+              "email": "pr.johnmennie@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Gillen Primary School,\r\n55 Milner Road, Alice Springs NT 0871",
+                  "longitude": null,
+                  "latitude": null
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              },
+              {
+                "address": {
+                  "text": "Gillen Primary School,\r\n55 Milner Road, Alice Springs NT 0871",
+                  "longitude": null,
+                  "latitude": null
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          },
+          {
+            "name": "Darwin",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Daniel",
+              "lastName": "Lee",
+              "number": "8945-6909",
+              "email": "pr.daniellee@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Darwin Revival Centre,\r\n24 Clarence St, Leanyer NT 0812",
+                  "longitude": 130.891411,
+                  "latitude": -12.376728
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:00AM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Queensland",
+        "fellowships": [
+          {
+            "name": "Brisbane",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Brad",
+              "lastName": "Smith",
+              "number": "3889-3879",
+              "email": "pr.bradsmith@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Yeronga State High School Hall,\r\n159 Villa St, Yeronga QLD 4104",
+                  "longitude": 153.0239687,
+                  "latitude": -27.5175111
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:30PM"
+              },
+              {
+                "address": {
+                  "text": "Yeronga State High School Hall,\r\n159 Villa St, Yeronga QLD 4104",
+                  "longitude": 153.0239687,
+                  "latitude": -27.5175111
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:00PM"
+              },
+              {
+                "address": {
+                  "text": "Yeronga State High School Hall,\r\n159 Villa St, Yeronga QLD 4104",
+                  "longitude": 153.0239687,
+                  "latitude": -27.5175111
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          },
+          {
+            "name": "Bundaberg",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Bill",
+              "lastName": "Walsh",
+              "number": "4153-1740",
+              "email": "pr.billwalsh@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "26 Skyring Street, Bundaberg East QLD 4670",
+                  "longitude": 152.372023,
+                  "latitude": -24.85992
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              },
+              {
+                "address": {
+                  "text": "26 Skyring Street, Bundaberg East QLD 4670",
+                  "longitude": 152.372023,
+                  "latitude": -24.85992
+                },
+                "dayOfWeek": "Thursday",
+                "startTime": "7:00PM"
+              }
+            ]
+          },
+          {
+            "name": "Cairns",
+            "contact": {
+              "title": "Contact",
+              "firstName": "Wayne",
+              "lastName": "Davis",
+              "number": "0447-410-088",
+              "email": "waynedavis@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Cairns Revival Centre,\r\n58-60 Arthur St, Manunda QLD 4870",
+                  "longitude": 145.752441,
+                  "latitude": -16.905208
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:00PM"
+              },
+              {
+                "address": {
+                  "text": "Cairns Revival Centre,\r\n58-60 Arthur St, Manunda QLD 4870",
+                  "longitude": 145.752441,
+                  "latitude": -16.905208
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:00PM"
+              },
+              {
+                "address": {
+                  "text": "Cairns Revival Centre,\r\n58-60 Arthur St, Manunda QLD 4870",
+                  "longitude": 145.752441,
+                  "latitude": -16.905208
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          },
+          {
+            "name": "Fraser Coast",
+            "contact": {
+              "title": "Contact",
+              "firstName": "Bradley",
+              "lastName": "Bretag",
+              "number": "0431-344-125",
+              "email": "bradleybretag@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Maryborough Central State School Hall,\r\nJohn Street, Maryborough QLD 4650",
+                  "longitude": 152.7065087,
+                  "latitude": -25.5292226
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:00AM"
+              },
+              {
+                "address": {
+                  "text": "Maryborough Central State School Hall,\r\nJohn Street, Maryborough QLD 4650",
+                  "longitude": 152.7065087,
+                  "latitude": -25.5292226
+                },
+                "dayOfWeek": "Friday",
+                "startTime": "7:00PM"
+              },
+              {
+                "address": {
+                  "text": "Maryborough Central State School Hall,\r\nJohn Street, Maryborough QLD 4650",
+                  "longitude": 152.7065087,
+                  "latitude": -25.5292226
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:00PM"
+              }
+            ]
+          },
+          {
+            "name": "Gold Coast",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Terry",
+              "lastName": "Coles",
+              "number": "5502-9106",
+              "email": "pr.terrycoles@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Gold Coast Revival Fellowship,\r\nCnr. Heather Street & Tallebudgera Creek Road, Andrews",
+                  "longitude": null,
+                  "latitude": null
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:30PM"
+              },
+              {
+                "address": {
+                  "text": "Gold Coast Revival Fellowship,\r\nCnr. Heather Street & Tallebudgera Creek Road, Andrews",
+                  "longitude": null,
+                  "latitude": null
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:15PM"
+              },
+              {
+                "address": {
+                  "text": "Gold Coast Revival Fellowship,\r\nCnr. Heather Street & Tallebudgera Creek Road, Andrews",
+                  "longitude": null,
+                  "latitude": null
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          },
+          {
+            "name": "Mackay",
+            "contact": {
+              "title": null,
+              "firstName": null,
+              "lastName": null,
+              "number": "0417-790-548",
+              "email": "@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Macalister Conference Centre,\r\n46 Macalister Street, Mackay QLD 4740",
+                  "longitude": 149.182596,
+                  "latitude": -21.142134
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "3:00PM"
+              }
+            ]
+          },
+          {
+            "name": "Maranoa",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Tom",
+              "lastName": "Krahenbring",
+              "number": "4622-2876",
+              "email": "pr.tomkrahenbring@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "CWA Hall,\r\nArthur Street, Roma",
+                  "longitude": 12.4963655,
+                  "latitude": 41.9027835
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "3:00PM"
+              }
+            ]
+          },
+          {
+            "name": "Rockhampton",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Bill",
+              "lastName": "Allen",
+              "number": "0409-623-347",
+              "email": "pr.billallen@trflife.com"
+            },
+            "meetings": [ ]
+          },
+          {
+            "name": "Sunshine Coast",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Bill",
+              "lastName": "Allen",
+              "number": "0409-623-347",
+              "email": "pr.billallen@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Sunshine Coast Revival Fellowship Hall,\r\n17/23 Stark Ln, Glen Forest QLD 4556",
+                  "longitude": 153.0500809,
+                  "latitude": -26.6971583
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "2:00PM"
+              },
+              {
+                "address": {
+                  "text": "Sunshine Coast Revival Fellowship Hall,\r\n17/23 Stark Ln, Glen Forest QLD 4556",
+                  "longitude": 153.0500809,
+                  "latitude": -26.6971583
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "5:00PM"
+              },
+              {
+                "address": {
+                  "text": "Sunshine Coast Revival Fellowship Hall,\r\n17/23 Stark Ln, Glen Forest QLD 4556",
+                  "longitude": 153.0500809,
+                  "latitude": -26.6971583
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:15PM"
+              }
+            ]
+          },
+          {
+            "name": "Toowoomba",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Geoff",
+              "lastName": "Boyle",
+              "number": "4615-5185",
+              "email": "pr.geoffboyle@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "27 Jellicoe St, Mount Lofty QLD 4350",
+                  "longitude": 151.9713707,
+                  "latitude": -27.548331
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              }
+            ]
+          },
+          {
+            "name": "Townsville",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Chris",
+              "lastName": "Thomasson",
+              "number": "4723-6512",
+              "email": "pr.christhomasson@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Townsville Revival Fellowship Hall\r\n37 Meenan Street, Garbutt QLD 4814",
+                  "longitude": 146.775533,
+                  "latitude": -19.260078
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:30PM"
+              },
+              {
+                "address": {
+                  "text": "Townsville Revival Fellowship Hall\r\n37 Meenan Street, Garbutt QLD 4814",
+                  "longitude": 146.775533,
+                  "latitude": -19.260078
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:00PM"
+              },
+              {
+                "address": {
+                  "text": "Townsville Revival Fellowship Hall\r\n37 Meenan Street, Garbutt QLD 4814",
+                  "longitude": 146.775533,
+                  "latitude": -19.260078
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "South Australia",
+        "fellowships": [
+          {
+            "name": "Elizabeth",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Graeme",
+              "lastName": "Hazledine",
+              "number": "8281-1309",
+              "email": "pr.graemehazledine@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "45 John Rice Avenue, Elizabeth Vale SA 5112",
+                  "longitude": 138.668794,
+                  "latitude": -34.748892
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:30PM"
+              },
+              {
+                "address": {
+                  "text": "45 John Rice Avenue, Elizabeth Vale SA 5112",
+                  "longitude": 138.668794,
+                  "latitude": -34.748892
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:15PM"
+              },
+              {
+                "address": {
+                  "text": "45 John Rice Avenue, Elizabeth Vale SA 5112",
+                  "longitude": 138.668794,
+                  "latitude": -34.748892
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:40PM"
+              }
+            ]
+          },
+          {
+            "name": "Gawler",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Tony",
+              "lastName": "Sheridan",
+              "number": "8522-6974",
+              "email": "pr.tonysheridan@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Elderly Centre, \r\nFourteenth St, Gawler South SA 5118",
+                  "longitude": 138.742229,
+                  "latitude": -34.6033513
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:30PM"
+              },
+              {
+                "address": {
+                  "text": "Elderly Centre, \r\nFourteenth St, Gawler South SA 5118",
+                  "longitude": 138.742229,
+                  "latitude": -34.6033513
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:15PM"
+              },
+              {
+                "address": {
+                  "text": "Elderly Centre, \r\nFourteenth St, Gawler South SA 5118",
+                  "longitude": 138.742229,
+                  "latitude": -34.6033513
+                },
+                "dayOfWeek": "Tuesday",
+                "startTime": "7:40PM"
+              }
+            ]
+          },
+          {
+            "name": "Kingswood (The Vogue)",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Laurie",
+              "lastName": "Nankivell",
+              "number": "8242-2120",
+              "email": "pr.laurienankivell@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Vogue Theatre,\r\n25 Belair Rd, Kingswood SA 5062",
+                  "longitude": 138.609129,
+                  "latitude": -34.96753
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:30PM"
+              },
+              {
+                "address": {
+                  "text": "Vogue Theatre,\r\n25 Belair Rd, Kingswood SA 5062",
+                  "longitude": 138.609129,
+                  "latitude": -34.96753
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:15PM"
+              },
+              {
+                "address": {
+                  "text": "Vogue Theatre,\r\n25 Belair Rd, Kingswood SA 5062",
+                  "longitude": 138.609129,
+                  "latitude": -34.96753
+                },
+                "dayOfWeek": "Tuesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          },
+          {
+            "name": "Woodcroft",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Paul",
+              "lastName": "Nobel",
+              "number": "8298-5847",
+              "email": "pr.paulnobel@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "255 Pimpala Road, Woodcroft SA 5162",
+                  "longitude": 138.558086,
+                  "latitude": -35.101118
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:30PM"
+              },
+              {
+                "address": {
+                  "text": "255 Pimpala Road, Woodcroft SA 5162",
+                  "longitude": 138.558086,
+                  "latitude": -35.101118
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:15PM"
+              },
+              {
+                "address": {
+                  "text": "255 Pimpala Road, Woodcroft SA 5162",
+                  "longitude": 138.558086,
+                  "latitude": -35.101118
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          },
+          {
+            "name": "Berri",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Nigel",
+              "lastName": "Rick",
+              "number": "0412-972-160",
+              "email": "pr.nigelrick@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Berri Senior Citizens Centre,\r\n1 Crawford Terrace, Berri SA 5343",
+                  "longitude": 140.5981832,
+                  "latitude": -34.2857761
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:30PM"
+              },
+              {
+                "address": {
+                  "text": "Berri Senior Citizens Centre,\r\n1 Crawford Terrace, Berri SA 5343",
+                  "longitude": 140.5981832,
+                  "latitude": -34.2857761
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:00PM"
+              },
+              {
+                "address": {
+                  "text": "Berri Senior Citizens Centre,\r\n1 Crawford Terrace, Berri SA 5343",
+                  "longitude": 140.5981832,
+                  "latitude": -34.2857761
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          },
+          {
+            "name": "Coober Pedy",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Deane",
+              "lastName": "Clee",
+              "number": "8672-5777",
+              "email": "pr.deaneclee@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Coober Pedy Revival Fellowship,\r\nCrowders Gully Road, Coober Pedy",
+                  "longitude": 134.7593174,
+                  "latitude": -29.0085951
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:15AM"
+              },
+              {
+                "address": {
+                  "text": "Coober Pedy Revival Fellowship,\r\nCrowders Gully Road, Coober Pedy",
+                  "longitude": 134.7593174,
+                  "latitude": -29.0085951
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "7:00PM"
+              },
+              {
+                "address": {
+                  "text": "Coober Pedy Revival Fellowship,\r\nCrowders Gully Road, Coober Pedy",
+                  "longitude": 134.7593174,
+                  "latitude": -29.0085951
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          },
+          {
+            "name": "Kingscote (Kangaroo Island)",
+            "contact": {
+              "title": null,
+              "firstName": null,
+              "lastName": null,
+              "number": "8558-8262",
+              "email": "@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Scout Hall, Franklin Street, Kingscote",
+                  "longitude": null,
+                  "latitude": null
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              }
+            ]
+          },
+          {
+            "name": "Mount Gambier",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Colin",
+              "lastName": "Wooldridge",
+              "number": "8732-4137",
+              "email": "pr.colinwooldridge@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Mount Gambier Revival Fellowship Hall\r\nCorner Wehl St North & McArthur St, Mt Gambier SA 5290",
+                  "longitude": 140.7769265,
+                  "latitude": -37.814878
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "3:00PM"
+              },
+              {
+                "address": {
+                  "text": "Mount Gambier Revival Fellowship Hall\r\nCorner Wehl St North & McArthur St, Mt Gambier SA 5290",
+                  "longitude": 140.7769265,
+                  "latitude": -37.814878
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "6:00PM"
+              },
+              {
+                "address": {
+                  "text": "Mount Gambier Revival Fellowship Hall\r\nCorner Wehl St North & McArthur St, Mt Gambier SA 5290",
+                  "longitude": 140.7769265,
+                  "latitude": -37.814878
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          },
+          {
+            "name": "Port Pirie",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Greg",
+              "lastName": "Drage",
+              "number": "8633-1660",
+              "email": "pr.gregdrage@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Pirie Revival Fellowship Hall,\r\n56 Florence Street, Port Pirie SA 5540",
+                  "longitude": 138.008094,
+                  "latitude": -33.176462
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:30PM"
+              },
+              {
+                "address": {
+                  "text": "Pirie Revival Fellowship Hall,\r\n56 Florence Street, Port Pirie SA 5540",
+                  "longitude": 138.008094,
+                  "latitude": -33.176462
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:15PM"
+              }
+            ]
+          },
+          {
+            "name": "Whyalla",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Mark",
+              "lastName": "Wickstein",
+              "number": "8645-2220",
+              "email": "pr.markwickstein@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Whyalla Revival Fellowship Hall,\r\n38 Viscount Slim Avenue, Whyalla Norrie SA 5608",
+                  "longitude": 137.539516,
+                  "latitude": -33.020759
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "3:00PM"
+              },
+              {
+                "address": {
+                  "text": "Whyalla Revival Fellowship Hall,\r\n38 Viscount Slim Avenue, Whyalla Norrie SA 5608",
+                  "longitude": 137.539516,
+                  "latitude": -33.020759
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "6:30PM"
+              },
+              {
+                "address": {
+                  "text": "Whyalla Revival Fellowship Hall,\r\n38 Viscount Slim Avenue, Whyalla Norrie SA 5608",
+                  "longitude": 137.539516,
+                  "latitude": -33.020759
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tasmania",
+        "fellowships": [
+          {
+            "name": "Hobart",
+            "contact": {
+              "title": "Contact",
+              "firstName": "Ian",
+              "lastName": "Watt",
+              "number": "6278-2624",
+              "email": "ianwatt@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "New Town Senior Citizens Hall,\r\n22 Creek Rd, Lenah Valley TAS 7008",
+                  "longitude": 147.288329,
+                  "latitude": -42.861716
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:30PM"
+              },
+              {
+                "address": {
+                  "text": "New Town Senior Citizens Hall,\r\n22 Creek Rd, Lenah Valley TAS 7008",
+                  "longitude": 147.288329,
+                  "latitude": -42.861716
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:00PM"
+              },
+              {
+                "address": {
+                  "text": "New Town Senior Citizens Hall,\r\n22 Creek Rd, Lenah Valley TAS 7008",
+                  "longitude": 147.288329,
+                  "latitude": -42.861716
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": ""
+              }
+            ]
+          },
+          {
+            "name": "Launceston",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Brian",
+              "lastName": "Hakof",
+              "number": "6330-2118",
+              "email": "pr.brianhakof@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "The Windsor Community Hall,\r\n1 Windsor Drive, Riverside TAS 7250",
+                  "longitude": 147.0928257,
+                  "latitude": -41.4043071
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:30PM"
+              },
+              {
+                "address": {
+                  "text": "The Windsor Community Hall,\r\n1 Windsor Drive, Riverside TAS 7250",
+                  "longitude": 147.0928257,
+                  "latitude": -41.4043071
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:00PM"
+              },
+              {
+                "address": {
+                  "text": "The Windsor Community Hall,\r\n1 Windsor Drive, Riverside TAS 7250",
+                  "longitude": 147.0928257,
+                  "latitude": -41.4043071
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Victoria",
+        "fellowships": [
+          {
+            "name": "Ballarat",
+            "contact": {
+              "title": "Contact",
+              "firstName": "Rob",
+              "lastName": "Sinclair",
+              "number": "0418-824-841",
+              "email": "robsinclair@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Ballarat Library, Doveton Street North, Ballarat VIC 3350",
+                  "longitude": 143.855905,
+                  "latitude": -37.5580559
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              },
+              {
+                "address": {
+                  "text": "Ballarat Library, Doveton Street North, Ballarat VIC 3350",
+                  "longitude": 143.855905,
+                  "latitude": -37.5580559
+                },
+                "dayOfWeek": "Tuesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          },
+          {
+            "name": "Bendigo",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "John",
+              "lastName": "Redford",
+              "number": "5447-4194",
+              "email": "pr.johnredford@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Senior Citizens Hall, Old High St, Golden Square, Bendigo",
+                  "longitude": 144.2630688,
+                  "latitude": -36.769261
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:30PM"
+              },
+              {
+                "address": {
+                  "text": "Senior Citizens Hall, Old High St, Golden Square, Bendigo",
+                  "longitude": 144.2630688,
+                  "latitude": -36.769261
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:00PM"
+              },
+              {
+                "address": {
+                  "text": "Senior Citizens Hall, Old High St, Golden Square, Bendigo",
+                  "longitude": 144.2630688,
+                  "latitude": -36.769261
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:45PM"
+              }
+            ]
+          },
+          {
+            "name": "Geelong",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Scott",
+              "lastName": "Nobel",
+              "number": "0433-919-164",
+              "email": "pr.scottnobel@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Grovedale Community Centre,\r\n45 Heyers Rd, Grovedale VIC 3216",
+                  "longitude": 144.333163,
+                  "latitude": -38.209533
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:30PM"
+              },
+              {
+                "address": {
+                  "text": "Grovedale Community Centre,\r\n45 Heyers Rd, Grovedale VIC 3216",
+                  "longitude": 144.333163,
+                  "latitude": -38.209533
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:00PM"
+              }
+            ]
+          },
+          {
+            "name": "Melbourne",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Darryl",
+              "lastName": "Williams",
+              "number": "9877-9767",
+              "email": "pr.darrylwilliams@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Senior Citizens Hall,\r\n45 Talbot Ave, Balwyn VIC 3103",
+                  "longitude": 145.085111,
+                  "latitude": -37.815492
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:30PM."
+              },
+              {
+                "address": {
+                  "text": "Senior Citizens Hall,\r\n45 Talbot Ave, Balwyn VIC 3103",
+                  "longitude": 145.085111,
+                  "latitude": -37.815492
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:15PM."
+              }
+            ]
+          },
+          {
+            "name": "Warrnambool",
+            "contact": {
+              "title": "Contact",
+              "firstName": "Rob",
+              "lastName": "Peterson",
+              "number": "5561-3834",
+              "email": "robpeterson@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Church Hall, The Esplanade,\r\nDennington, Warrnambool",
+                  "longitude": 142.4390609,
+                  "latitude": -38.3574728
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "11:00AM"
+              },
+              {
+                "address": {
+                  "text": "Church Hall, The Esplanade,\r\nDennington, Warrnambool",
+                  "longitude": 142.4390609,
+                  "latitude": -38.3574728
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:30PM"
+              },
+              {
+                "address": {
+                  "text": "Church Hall, The Esplanade,\r\nDennington, Warrnambool",
+                  "longitude": 142.4390609,
+                  "latitude": -38.3574728
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Western Australia",
+        "fellowships": [
+          {
+            "name": "Bunbury",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Tim",
+              "lastName": "Cope",
+              "number": "9796-0889",
+              "email": "pr.timcope@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Eaton Family Centre, \r\n10 Charterhouse St, Eaton WA 6232",
+                  "longitude": 115.6985211,
+                  "latitude": -33.3183792
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              },
+              {
+                "address": {
+                  "text": "Eaton Family Centre, \r\n10 Charterhouse St, Eaton WA 6232",
+                  "longitude": 115.6985211,
+                  "latitude": -33.3183792
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:45PM"
+              },
+              {
+                "address": {
+                  "text": "Eaton Family Centre, \r\n10 Charterhouse St, Eaton WA 6232",
+                  "longitude": 115.6985211,
+                  "latitude": -33.3183792
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:45PM"
+              }
+            ]
+          },
+          {
+            "name": "Mandurah",
+            "contact": {
+              "title": null,
+              "firstName": null,
+              "lastName": null,
+              "number": "9437-5533",
+              "email": "@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Greenfields Family & Community Centre,\r\n2 Waldron Blvd, Greenfields WA 6210",
+                  "longitude": 115.755492,
+                  "latitude": -32.529315
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:45PM"
+              }
+            ]
+          },
+          {
+            "name": "Yangebup",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Kevin",
+              "lastName": "Quirk",
+              "number": "9437-5533",
+              "email": "pr.kevinquirk@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Revival Hall,\r\n3 Dunraven Dr, Yangebup WA 6164",
+                  "longitude": 115.8239803,
+                  "latitude": -32.1250617
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              },
+              {
+                "address": {
+                  "text": "Revival Hall,\r\n3 Dunraven Dr, Yangebup WA 6164",
+                  "longitude": 115.8239803,
+                  "latitude": -32.1250617
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "2:00PM"
+              }
+            ]
+          },
+          {
+            "name": "Morley",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Simon",
+              "lastName": "Pearce",
+              "number": "9378-2078",
+              "email": "pr.simonpearce@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Revival Hall,\r\n1 Fiona Street, Morley WA 6062",
+                  "longitude": 115.891268,
+                  "latitude": -31.888993
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              },
+              {
+                "address": {
+                  "text": "Revival Hall,\r\n1 Fiona Street, Morley WA 6062",
+                  "longitude": 115.891268,
+                  "latitude": -31.888993
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "2:00PM"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "principlePastor": {
+      "name": "Paul Noble",
+      "email": "paul.noble@therevivalfellowship.com"
+    }
+  },
+  {
+    "name": "Africa",
+    "subRegion": [
+      {
+        "name": "Burundi",
+        "fellowships": [ ]
+      },
+      {
+        "name": "Cameroon",
+        "fellowships": [ ]
+      },
+      {
+        "name": "Congo",
+        "fellowships": [ ]
+      },
+      {
+        "name": "Kenya",
+        "fellowships": [ ]
+      },
+      {
+        "name": "Liberia",
+        "fellowships": [ ]
+      },
+      {
+        "name": "Malawi",
+        "fellowships": [ ]
+      },
+      {
+        "name": "Rwanda",
+        "fellowships": [ ]
+      },
+      {
+        "name": "South Africa",
+        "fellowships": [
+          {
+            "name": "Cape Town",
+            "contact": null,
+            "meetings": [
+              {
+                "address": {
+                  "text": "Cape Town Revival Fellowship,\r\nHeathfield Hall, Gordon Road, Heathfield",
+                  "longitude": 18.4240553,
+                  "latitude": -33.9248685
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "11:00AM"
+              },
+              {
+                "address": {
+                  "text": "Cape Town Revival Fellowship,\r\nHeathfield Hall, Gordon Road, Heathfield",
+                  "longitude": 18.4240553,
+                  "latitude": -33.9248685
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:45PM"
+              },
+              {
+                "address": {
+                  "text": "Cape Town Revival Fellowship,\r\nHeathfield Hall, Gordon Road, Heathfield",
+                  "longitude": 18.4240553,
+                  "latitude": -33.9248685
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "8:00PM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Uganda",
+        "fellowships": [ ]
+      },
+      {
+        "name": "Zambia",
+        "fellowships": [
+          {
+            "name": "Kitwe",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Eddie",
+              "lastName": "Kamavu",
+              "number": "95-558-2259",
+              "email": "pr.eddiekamavu@trflife.com"
+            },
+            "meetings": [ ]
+          },
+          {
+            "name": "Solwezi",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Millan",
+              "lastName": "Nduwa",
+              "number": "97-757-4521",
+              "email": "pr.millannduwa@trflife.com"
+            },
+            "meetings": [ ]
+          }
+        ]
+      },
+      {
+        "name": "Zimbabwe",
+        "fellowships": [
+          {
+            "name": "Harare",
+            "contact": {
+              "title": null,
+              "firstName": null,
+              "lastName": null,
+              "number": "07 1239-1060",
+              "email": "@trflife.com"
+            },
+            "meetings": [ ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Asia",
+    "subRegion": [
+      {
+        "name": "India",
+        "fellowships": [
+          {
+            "name": "Bangalore",
+            "contact": {
+              "title": null,
+              "firstName": null,
+              "lastName": null,
+              "number": null,
+              "email": "@trflife.com"
+            },
+            "meetings": [ ]
+          }
+        ]
+      },
+      {
+        "name": "Japan",
+        "fellowships": [ ]
+      },
+      {
+        "name": "Philippines",
+        "fellowships": [
+          {
+            "name": "Manila",
+            "contact": {
+              "title": null,
+              "firstName": null,
+              "lastName": null,
+              "number": "998-556-5416",
+              "email": "@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Philippine Bible Society Compound,\r\n890 United Nations Ave, Ermita, Manila, 1000 Metro Manila, Philippines",
+                  "longitude": 121.0222565,
+                  "latitude": 14.6090537
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              },
+              {
+                "address": {
+                  "text": "Philippine Bible Society Compound,\r\n890 United Nations Ave, Ermita, Manila, 1000 Metro Manila, Philippines",
+                  "longitude": 121.0222565,
+                  "latitude": 14.6090537
+                },
+                "dayOfWeek": "Friday",
+                "startTime": "6:00PM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Singapore",
+        "fellowships": [
+          {
+            "name": "Singapore",
+            "contact": null,
+            "meetings": [
+              {
+                "address": {
+                  "text": "Legacy Hall, Camp Challenge Sembawang\r\n8 Admiralty Rd E, Singapore 759991",
+                  "longitude": 103.832127,
+                  "latitude": 1.454764
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:15AM"
+              },
+              {
+                "address": {
+                  "text": "Legacy Hall, Camp Challenge Sembawang\r\n8 Admiralty Rd E, Singapore 759991",
+                  "longitude": 103.832127,
+                  "latitude": 1.454764
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "2:45PM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "South Korea",
+        "fellowships": [
+          {
+            "name": "Seoul",
+            "contact": {
+              "title": "Contact",
+              "firstName": "Greg",
+              "lastName": "Hourigan",
+              "number": "1075-996-744",
+              "email": "greghourigan@trflife.com"
+            },
+            "meetings": [ ]
+          }
+        ]
+      },
+      {
+        "name": "Thailand",
+        "fellowships": [
+          {
+            "name": "Bangkok",
+            "contact": {
+              "title": null,
+              "firstName": null,
+              "lastName": null,
+              "number": null,
+              "email": "@trflife.com"
+            },
+            "meetings": [ ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Europe",
+    "subRegion": [
+      {
+        "name": "Czech Republic",
+        "fellowships": [
+          {
+            "name": "Czech Republic",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Oldrich (Olda)",
+              "lastName": "Treml",
+              "number": "499 898 216",
+              "email": "pr.oldrich (olda)treml@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Volanovská 409, Trutnov",
+                  "longitude": 15.8974271,
+                  "latitude": 50.5581568
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "3:00PM"
+              },
+              {
+                "address": {
+                  "text": "Volanovská 409, Trutnov",
+                  "longitude": 15.8974271,
+                  "latitude": 50.5581568
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "6:00PM"
+              },
+              {
+                "address": {
+                  "text": "Volanovská 409, Trutnov",
+                  "longitude": 15.8974271,
+                  "latitude": 50.5581568
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "6:30PM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "France",
+        "fellowships": [
+          {
+            "name": "France",
+            "contact": {
+              "title": "Contact",
+              "firstName": "Alain",
+              "lastName": "Artus",
+              "number": "(5)4996-3195",
+              "email": "alainartus@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "22, rue de Bellefontaine 49100 Angers",
+                  "longitude": -0.540448,
+                  "latitude": 47.470755
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "11:00AM"
+              },
+              {
+                "address": {
+                  "text": "22, rue de Bellefontaine 49100 Angers",
+                  "longitude": -0.540448,
+                  "latitude": 47.470755
+                },
+                "dayOfWeek": "Thursday",
+                "startTime": "8:00PM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Germany",
+        "fellowships": [ ]
+      },
+      {
+        "name": "Hungary",
+        "fellowships": [
+          {
+            "name": "Hungary",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Chris",
+              "lastName": "Kaye",
+              "number": "(027)35-9787  Fax  (027)35-9824",
+              "email": "pr.chriskaye@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Feléledési Közösség (Revival Fellowship),\r\nBudapest Hall,\r\nIX. District, Budapest, Haller u. 52",
+                  "longitude": 19.0792468,
+                  "latitude": 47.4765951
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:00PM"
+              },
+              {
+                "address": {
+                  "text": "Feléledési Közösség (Revival Fellowship),\r\nBudapest Hall,\r\nIX. District, Budapest, Haller u. 52",
+                  "longitude": 19.0792468,
+                  "latitude": 47.4765951
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:30PM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Netherlands",
+        "fellowships": [
+          {
+            "name": "Almere",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Rene",
+              "lastName": "Janssen",
+              "number": "848-6567",
+              "email": "pr.renejanssen@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Revival Centres Holland,\r\nOperetteweg 104, 1323 VE Almere, Netherlands",
+                  "longitude": 5.1886424,
+                  "latitude": 52.3632793
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "2:00PM"
+              },
+              {
+                "address": {
+                  "text": "Revival Centres Holland,\r\nOperetteweg 104, 1323 VE Almere, Netherlands",
+                  "longitude": 5.1886424,
+                  "latitude": 52.3632793
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "5:00PM"
+              }
+            ]
+          },
+          {
+            "name": "Dordrecht",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Pieter",
+              "lastName": "Visser",
+              "number": "(0)78-614-6173",
+              "email": "pr.pietervisser@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Revival Centres Holland,\r\nKromhout 95, 3311 RE Dordrecht, Netherlands",
+                  "longitude": 4.6736872,
+                  "latitude": 51.8141141
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "2:00PM"
+              },
+              {
+                "address": {
+                  "text": "Revival Centres Holland,\r\nKromhout 95, 3311 RE Dordrecht, Netherlands",
+                  "longitude": 4.6736872,
+                  "latitude": 51.8141141
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "5:30PM"
+              }
+            ]
+          },
+          {
+            "name": "Rotterdam",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Ben",
+              "lastName": "Visser",
+              "number": "753-2467",
+              "email": "pr.benvisser@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "2e Sint-Janshof 16, 3011 SG Rotterdam, Netherlands",
+                  "longitude": 4.4943629,
+                  "latitude": 51.9226394
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "2:00PM"
+              },
+              {
+                "address": {
+                  "text": "2e Sint-Janshof 16, 3011 SG Rotterdam, Netherlands",
+                  "longitude": 4.4943629,
+                  "latitude": 51.9226394
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "5:30PM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Switzerland",
+        "fellowships": [
+          {
+            "name": "Switzerland",
+            "contact": {
+              "title": "Contact",
+              "firstName": "Stephan",
+              "lastName": "Regli",
+              "number": "(031)972-2221",
+              "email": "stephanregli@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Könizstrasse 13, 3008 Bern, Switzerland",
+                  "longitude": 7.4210326,
+                  "latitude": 46.9437142
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "2:00PM"
+              },
+              {
+                "address": {
+                  "text": "Könizstrasse 13, 3008 Bern, Switzerland",
+                  "longitude": 7.4210326,
+                  "latitude": 46.9437142
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "5:00PM"
+              },
+              {
+                "address": {
+                  "text": "Könizstrasse 13, 3008 Bern, Switzerland",
+                  "longitude": 7.4210326,
+                  "latitude": 46.9437142
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "United Kingdom",
+        "fellowships": [
+          {
+            "name": "Dublin",
+            "contact": {
+              "title": "Contact",
+              "firstName": "Tom",
+              "lastName": "O’Brien",
+              "number": "016-100-552",
+              "email": "tomo’brien@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Ballyowen Castle Community Centre, Ballyowen Land, Lucan, Co. Dublin, Ireland",
+                  "longitude": -6.4498488,
+                  "latitude": 53.3572085
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "11:00AM"
+              },
+              {
+                "address": {
+                  "text": "Ballyowen Castle Community Centre, Ballyowen Land, Lucan, Co. Dublin, Ireland",
+                  "longitude": -6.4498488,
+                  "latitude": 53.3572085
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:45PM"
+              },
+              {
+                "address": {
+                  "text": "Ballyowen Castle Community Centre, Ballyowen Land, Lucan, Co. Dublin, Ireland",
+                  "longitude": -6.4498488,
+                  "latitude": 53.3572085
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          },
+          {
+            "name": "Medway",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Steve",
+              "lastName": "Murphy",
+              "number": "31-4386",
+              "email": "pr.stevemurphy@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "356-360 Canterbury Street, Gillingham ME7 5JS",
+                  "longitude": 0.5513074,
+                  "latitude": 51.3764316
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "11:00AM"
+              },
+              {
+                "address": {
+                  "text": "356-360 Canterbury Street, Gillingham ME7 5JS",
+                  "longitude": 0.5513074,
+                  "latitude": 51.3764316
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          },
+          {
+            "name": "North West",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Lee",
+              "lastName": "Finney",
+              "number": "TBA",
+              "email": "pr.leefinney@trflife.com"
+            },
+            "meetings": [ ]
+          },
+          {
+            "name": "Liverpool",
+            "contact": {
+              "title": "Contact",
+              "firstName": "Denis",
+              "lastName": "Murphy",
+              "number": "(0151)530-1236",
+              "email": "denismurphy@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "3 Washington Parade, Bootle, Merseyside L20 5HD",
+                  "longitude": -2.9942319,
+                  "latitude": 53.4532475
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "2:00PM"
+              },
+              {
+                "address": {
+                  "text": "3 Washington Parade, Bootle, Merseyside L20 5HD",
+                  "longitude": -2.9942319,
+                  "latitude": 53.4532475
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "5:00PM"
+              },
+              {
+                "address": {
+                  "text": "3 Washington Parade, Bootle, Merseyside L20 5HD",
+                  "longitude": -2.9942319,
+                  "latitude": 53.4532475
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30"
+              }
+            ]
+          },
+          {
+            "name": "Manchester",
+            "contact": {
+              "title": "Contact",
+              "firstName": "Jamie",
+              "lastName": "Byrne",
+              "number": "(0161)950-9888",
+              "email": "jamiebyrne@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "3 Washington Parade, Bootle, Merseyside L20 5HD",
+                  "longitude": -2.9942319,
+                  "latitude": 53.4532475
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "2:00PM"
+              },
+              {
+                "address": {
+                  "text": "3 Washington Parade, Bootle, Merseyside L20 5HD",
+                  "longitude": -2.9942319,
+                  "latitude": 53.4532475
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "5:00PM"
+              },
+              {
+                "address": {
+                  "text": "3 Washington Parade, Bootle, Merseyside L20 5HD",
+                  "longitude": -2.9942319,
+                  "latitude": 53.4532475
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:45PM"
+              }
+            ]
+          },
+          {
+            "name": "North London",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Martin",
+              "lastName": "Polhill",
+              "number": "8954-3483",
+              "email": "pr.martinpolhill@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "66-72 High Street, Wealdstone, Middlesex HA3 7AF",
+                  "longitude": -0.3359842,
+                  "latitude": 51.5971145
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "11:00AM"
+              },
+              {
+                "address": {
+                  "text": "66-72 High Street, Wealdstone, Middlesex HA3 7AF",
+                  "longitude": -0.3359842,
+                  "latitude": 51.5971145
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "2:00PM"
+              },
+              {
+                "address": {
+                  "text": "66-72 High Street, Wealdstone, Middlesex HA3 7AF",
+                  "longitude": -0.3359842,
+                  "latitude": 51.5971145
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:45PM"
+              }
+            ]
+          },
+          {
+            "name": "West London",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Yomi",
+              "lastName": "Okunola",
+              "number": "8255-4521",
+              "email": "pr.yomiokunola@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "4-8 School Road,\r\nHounslow, London TW3 1QZ",
+                  "longitude": -0.3564673,
+                  "latitude": 51.4695202
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:00PM"
+              },
+              {
+                "address": {
+                  "text": "4-8 School Road,\r\nHounslow, London TW3 1QZ",
+                  "longitude": -0.3564673,
+                  "latitude": 51.4695202
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:00PM"
+              },
+              {
+                "address": {
+                  "text": "4-8 School Road,\r\nHounslow, London TW3 1QZ",
+                  "longitude": -0.3564673,
+                  "latitude": 51.4695202
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:45PM"
+              }
+            ]
+          },
+          {
+            "name": "Poole",
+            "contact": {
+              "title": null,
+              "firstName": null,
+              "lastName": null,
+              "number": "(0)7962-61-4865",
+              "email": "@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Poole Old Town Community Centre, 2 Lagland Street, Poole BH15 1RR, United Kingdom",
+                  "longitude": -1.9842478,
+                  "latitude": 50.7141093
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "2:00PM"
+              },
+              {
+                "address": {
+                  "text": "Poole Old Town Community Centre, 2 Lagland Street, Poole BH15 1RR, United Kingdom",
+                  "longitude": -1.9842478,
+                  "latitude": 50.7141093
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:30PM"
+              },
+              {
+                "address": {
+                  "text": "Poole Old Town Community Centre, 2 Lagland Street, Poole BH15 1RR, United Kingdom",
+                  "longitude": -1.9842478,
+                  "latitude": 50.7141093
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          },
+          {
+            "name": "Yorkshire",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Bob",
+              "lastName": "Hutton",
+              "number": "55-0629",
+              "email": "pr.bobhutton@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "The Courtyard, Cnr Boothferry & Dunhill Rds, Goole DN14 6AE",
+                  "longitude": -0.8771052,
+                  "latitude": 53.7049759
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "2:00PM"
+              },
+              {
+                "address": {
+                  "text": "The Courtyard, Cnr Boothferry & Dunhill Rds, Goole DN14 6AE",
+                  "longitude": -0.8771052,
+                  "latitude": 53.7049759
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:30PM"
+              },
+              {
+                "address": {
+                  "text": "The Courtyard, Cnr Boothferry & Dunhill Rds, Goole DN14 6AE",
+                  "longitude": -0.8771052,
+                  "latitude": 53.7049759
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "South America",
+    "subRegion": [
+      {
+        "name": "Brazil",
+        "fellowships": [
+          {
+            "name": "Fortaleza",
+            "contact": {
+              "title": null,
+              "firstName": null,
+              "lastName": null,
+              "number": "(085)3262.1101",
+              "email": "@trflife.com"
+            },
+            "meetings": [ ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "North America",
+    "subRegion": [
+      {
+        "name": "Canada",
+        "fellowships": [
+          {
+            "name": "Victoria ~ British Columbia",
+            "contact": {
+              "title": null,
+              "firstName": null,
+              "lastName": null,
+              "number": "882-7263",
+              "email": "@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "",
+                  "longitude": null,
+                  "latitude": null
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              },
+              {
+                "address": {
+                  "text": "",
+                  "longitude": null,
+                  "latitude": null
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          },
+          {
+            "name": "East Grimsby ~ Ontario",
+            "contact": {
+              "title": "Contact",
+              "firstName": "John",
+              "lastName": "Niznansky",
+              "number": null,
+              "email": "johnniznansky@trflife.com"
+            },
+            "meetings": [ ]
+          }
+        ]
+      },
+      {
+        "name": "United States",
+        "fellowships": [
+          {
+            "name": "Athens ~ Georgia",
+            "contact": {
+              "title": "Contact",
+              "firstName": "Steve",
+              "lastName": "Ielasi",
+              "number": "743-3423",
+              "email": "steveielasi@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "387b Old Commerce Road, Athens, GA 30607, USA",
+                  "longitude": -83.381272,
+                  "latitude": 33.993827
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:00PM"
+              },
+              {
+                "address": {
+                  "text": "387b Old Commerce Road, Athens, GA 30607, USA",
+                  "longitude": -83.381272,
+                  "latitude": 33.993827
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "3:15PM"
+              },
+              {
+                "address": {
+                  "text": "387b Old Commerce Road, Athens, GA 30607, USA",
+                  "longitude": -83.381272,
+                  "latitude": 33.993827
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:00PM"
+              }
+            ]
+          },
+          {
+            "name": "Fresno ~ California",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "David",
+              "lastName": "Elliott",
+              "number": "222-8843",
+              "email": "pr.davidelliott@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "11 North San Pablo Avenue, Fresno, CA 93721, USA",
+                  "longitude": -119.795086,
+                  "latitude": 36.743381
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:00AM"
+              },
+              {
+                "address": {
+                  "text": "11 North San Pablo Avenue, Fresno, CA 93721, USA",
+                  "longitude": -119.795086,
+                  "latitude": 36.743381
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:00PM"
+              },
+              {
+                "address": {
+                  "text": "11 North San Pablo Avenue, Fresno, CA 93721, USA",
+                  "longitude": -119.795086,
+                  "latitude": 36.743381
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          },
+          {
+            "name": "San Pedro ~ California",
+            "contact": {
+              "title": null,
+              "firstName": null,
+              "lastName": null,
+              "number": "310-879-9695",
+              "email": "@trflife.com"
+            },
+            "meetings": [ ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Oceania",
+    "subRegion": [
+      {
+        "name": "New Zealand",
+        "fellowships": [
+          {
+            "name": "Auckland",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Wayne",
+              "lastName": "Edwards",
+              "number": "277-2940",
+              "email": "pr.wayneedwards@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "21 Kalmia Street, Ellerslie, Auckland 1051, New Zealand",
+                  "longitude": 174.8073566,
+                  "latitude": -36.8972272
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:30PM"
+              },
+              {
+                "address": {
+                  "text": "21 Kalmia Street, Ellerslie, Auckland 1051, New Zealand",
+                  "longitude": 174.8073566,
+                  "latitude": -36.8972272
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "4:00PM"
+              },
+              {
+                "address": {
+                  "text": "21 Kalmia Street, Ellerslie, Auckland 1051, New Zealand",
+                  "longitude": 174.8073566,
+                  "latitude": -36.8972272
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": ""
+              }
+            ]
+          },
+          {
+            "name": "Bay Of Plenty",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Alan",
+              "lastName": "Butler",
+              "number": "573-5840",
+              "email": "pr.alanbutler@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Revival Hall, 20 Seddon Street, Te Puke 3119, New Zealand",
+                  "longitude": 176.327901,
+                  "latitude": -37.7795035
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "3:00PM"
+              },
+              {
+                "address": {
+                  "text": "Revival Hall, 20 Seddon Street, Te Puke 3119, New Zealand",
+                  "longitude": 176.327901,
+                  "latitude": -37.7795035
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "6:00PM"
+              },
+              {
+                "address": {
+                  "text": "Revival Hall, 20 Seddon Street, Te Puke 3119, New Zealand",
+                  "longitude": 176.327901,
+                  "latitude": -37.7795035
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:00PM"
+              }
+            ]
+          },
+          {
+            "name": "Christchurch",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Mark",
+              "lastName": "Wattchow",
+              "number": "358-8829",
+              "email": "pr.markwattchow@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "",
+                  "longitude": null,
+                  "latitude": null
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              },
+              {
+                "address": {
+                  "text": "",
+                  "longitude": null,
+                  "latitude": null
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "1:00PM"
+              },
+              {
+                "address": {
+                  "text": "",
+                  "longitude": null,
+                  "latitude": null
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          },
+          {
+            "name": "New Plymouth",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Bryan",
+              "lastName": "Smith",
+              "number": "(021)-732-766",
+              "email": "pr.bryansmith@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "New Plymouth Revival Hall,\r\nCorner Bayly Rd and Breakwater Rd, Motoroa, New Plymouth 4310, New Zealand",
+                  "longitude": 174.0484601,
+                  "latitude": -39.0755432
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              },
+              {
+                "address": {
+                  "text": "New Plymouth Revival Hall,\r\nCorner Bayly Rd and Breakwater Rd, Motoroa, New Plymouth 4310, New Zealand",
+                  "longitude": 174.0484601,
+                  "latitude": -39.0755432
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "7:00PM"
+              },
+              {
+                "address": {
+                  "text": "New Plymouth Revival Hall,\r\nCorner Bayly Rd and Breakwater Rd, Motoroa, New Plymouth 4310, New Zealand",
+                  "longitude": 174.0484601,
+                  "latitude": -39.0755432
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:30PM"
+              }
+            ]
+          },
+          {
+            "name": "Wellington",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "Sascha",
+              "lastName": "Bramao",
+              "number": "(021)-204-5634",
+              "email": "pr.saschabramao@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "15 - 17 Dudley Street, Lower Hutt 5010, New Zealand",
+                  "longitude": 174.90152,
+                  "latitude": -41.209175
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:30AM"
+              },
+              {
+                "address": {
+                  "text": "15 - 17 Dudley Street, Lower Hutt 5010, New Zealand",
+                  "longitude": 174.90152,
+                  "latitude": -41.209175
+                },
+                "dayOfWeek": "Wednesday",
+                "startTime": "7:00PM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Papua New Guinea",
+        "fellowships": [ ]
+      },
+      {
+        "name": "Indonesia",
+        "fellowships": [
+          {
+            "name": "Bali",
+            "contact": {
+              "title": "Pastor",
+              "firstName": "William",
+              "lastName": "Wijaya",
+              "number": "(361) 483-670",
+              "email": "pr.williamwijaya@trflife.com"
+            },
+            "meetings": [ ]
+          }
+        ]
+      },
+      {
+        "name": "West Papua",
+        "fellowships": [ ]
+      },
+      {
+        "name": "West Timor",
+        "fellowships": [
+          {
+            "name": "West Timor",
+            "contact": {
+              "title": null,
+              "firstName": null,
+              "lastName": null,
+              "number": "(81) 139-5879",
+              "email": "@trflife.com"
+            },
+            "meetings": [ ]
+          }
+        ]
+      },
+      {
+        "name": "Fiji",
+        "fellowships": [ ]
+      },
+      {
+        "name": "Vanuatu",
+        "fellowships": [
+          {
+            "name": "Port Vila",
+            "contact": {
+              "title": null,
+              "firstName": null,
+              "lastName": null,
+              "number": "777-4807",
+              "email": "@trflife.com"
+            },
+            "meetings": [
+              {
+                "address": {
+                  "text": "Revival Hall, Seaside, Port Vila",
+                  "longitude": 168.3273245,
+                  "latitude": -17.7332512
+                },
+                "dayOfWeek": "Sunday",
+                "startTime": "10:00AM"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

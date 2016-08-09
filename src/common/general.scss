@@ -1,0 +1,25 @@
+/**
+ * COMMON
+ */
+
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    min-width: 320px;
+
+    font-family: 'Effra', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5 {}

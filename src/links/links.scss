@@ -1,0 +1,13 @@
+.links {}
+
+
+    .links__item {}
+
+
+        .links__item__img {
+            transition: transform $timeMovement;
+
+            .links__item:hover & {
+                transform: scale(1.02) rotate(-1deg);
+            }
+        }

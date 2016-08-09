@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+<h1 id="global-website">Global-Website</h1>
+
+<h2 id="thecentralwebsiteforthewholefellowship.">The central website for the whole fellowship.</h2>
+
+<h1 id="guidevsetup">GUI DEV SETUP</h1>
+
+<hr />
+
+<h1 id="techdevsetup">TECH DEV SETUP</h1>
+
+<h2 id="tosetupbuildautomation">To set up build automation</h2>
+
+<ul>
+<li>Run <code>vagrant up</code> to boot up VM</li>
+<li>Run <code>sudo npm install</code> from root directory</li>
+<li>Run <code>gulp</code> to begin watch and building</li>
+<li>Visit <code>http://192.168.33.10</code></li>
+</ul>
+
+<h2 id="buildtoolsrequires">Build tools requires</h2>
+
+<ul>
+<li>Vagrant (vagrantup.com)</li>
+<li>NodeJS</li>
+<li>Gulp (<code>sudo npm install -g gulp</code>)</li>
+</ul>
+
+<h2 id="buildtoolswill">Build tools will</h2>
+
+<ul>
+<li>Compile, concatinate and compress SCSS</li>
+<li>Concatinate and uglify JS</li>
+</ul>
+
+<h2 id="gitbranchingworkflow">Git branching workflow</h2>
+
+<p><code>master</code> -&gt; <code>dev</code> -&gt; <code>feature-xyz</code> -&gt; <code>dev</code> -&gt; <code>master</code></p>
+
+<ul>
+<li><strong><code>master</code></strong> = Live on <code>production</code> and any <code>staging</code> servers.</li>
+<li><strong><code>dev</code></strong> = Live <code>dev</code> servers, merged back into <code>master</code>, default branch.</li>
+<li><strong><code>feature-xyz</code></strong> <code>local</code> branch off of <code>dev</code>, per feature, pull requested into <code>dev</code>, then deleted.</li>
+</ul>
+
+<h3 id="branchnamingconvention">Branch Naming convention</h3>
+
+<ul>
+<li>Developer&#8217;s Initials - Feature and/or Purpose - Date created.</li>
+<li><code>BF-FixFellowshipFinderGeoLogic-22Apr16</code></li>
+</ul>
+
+<h2 id="codeguidelinesused">Code guidelines used</h2>
+
+<ul>
+<li>http://cssguidelin.es</li>
+<li>https://github.com/johnpapa/angular-styleguide</li>
+</ul>
+
+<h2 id="todo">Todo</h2>
+
+<p>StateManager service now in place, running through both styles and functionality top down.</p>
+
+</body>
+</html>
