@@ -11,9 +11,19 @@ function inc_src($path) {
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <title>The Revival Fellowship</title>
-    <meta name="description" content="">
-
+    <meta name="keywords" content="Spiritfilled, Jesus, Repentance, Baptism, Holy Ghost, Speaking in Tongues">
+    <meta name="description" content="We believe in a God that is alive today, a bible that is the word of God and the born again experience of the Holy Spirit. A solid foundation in Christ.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="The Revival Fellowship - A solid foundation in Christ.">
+	<meta property="og:description" content="We believe in a God that is alive today, a bible that is the word of God and the born again experience of the Holy Spirit.">
+	<meta property="og:url" content="http://therevivalfellowship.com/">
+	<meta property="og:image" content="http://therevivalfellowship.com/assets/img/title--facebook--ogimage.jpg">
+
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <meta name="msapplication-TileImage" content="assets/img/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#f5f5f5">
+    <meta name="msapplication-tap-highlight" content="no">
+    
     <link rel="stylesheet" href="assets/css/index.min.css">
 
     <script src="https://use.typekit.net/ppd6ljk.js"></script>
