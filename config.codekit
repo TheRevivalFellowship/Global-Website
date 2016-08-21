@@ -110,6 +110,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/assets\/img\/content\/link-old-site.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11660,
+		"inputAbbreviatedPath": "\/public\/assets\/img\/content\/link-old-site.jpg",
+		"outputAbbreviatedPath": "\/public\/assets\/img\/content\/link-old-site.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/assets\/img\/content\/link-one-mission.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
