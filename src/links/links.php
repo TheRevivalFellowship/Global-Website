@@ -14,17 +14,26 @@
         </a>
     </div>
     <div class="links__item">
-        <a href="http://www.trftalkradio.com/">
-            <img src="assets/img/content/link-talk-radio.jpg"
-                alt="TRF Talk Radio"
-                class="links__item__img">
-        </a>
-    </div>
-    <div class="links__item">
         <a href="http://re-acts.com/">
             <img src="assets/img/content/link-re-acts.jpg"
                 alt="Re-acts"
                 class="links__item__img">
         </a>
     </div>
+    <div class="links__item">
+        <a href="http://www.trftalkradio.com/">
+            <img src="assets/img/content/link-talk-radio.jpg"
+                alt="TRF Talk Radio"
+                class="links__item__img">
+        </a>
+    </div>
+<!--
+    <div class="links__item">
+        <a href="v1/">
+            <img src="assets/img/content/link-old-site.jpg"
+                alt="access the old trf.org.au website"
+                class="links__item__img">
+        </a>
+    </div>
+-->
 </section>
