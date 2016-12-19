@@ -19,10 +19,15 @@ function inc_src($path) {
 	<meta property="og:url" content="http://therevivalfellowship.com/">
 	<meta property="og:image" content="http://therevivalfellowship.com/assets/img/title--facebook--ogimage.jpg">
 
-    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
-    <meta name="msapplication-TileImage" content="assets/img/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#f5f5f5">
-    <meta name="msapplication-tap-highlight" content="no">
+    <!-- favicon and app icons generated at realfavicongenerator.net -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="apple-mobile-web-app-title" content="TRF">
+	<meta name="application-name" content="TRF">
+	<meta name="theme-color" content="#f5f5f5">
     
     <link rel="stylesheet" href="assets/css/index.min.css">
 
@@ -47,10 +52,17 @@ function inc_src($path) {
     </script>
     <script src="assets/js/website.min.js"></script>
 
-    <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-2039520-11', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
 </head>
 <body ng-controller="IndexController as ic" ng-class="'app-state--' + ic.state.get()">
 
