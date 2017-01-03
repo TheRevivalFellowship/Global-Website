@@ -2,3 +2,6 @@
 node_modules
 src/.sass-cache/
 .vagrant/
+
+public/v4
+public/healedbygod
