@@ -6,15 +6,15 @@
     </div>
 
     <div class="news-events__main">
-        <img src="assets/img/content/event-victasrally.jpg"
+        <img src="assets/img/content/event-geelongconvention.jpg"
             alt="Life Convention"
             class="news-events__main__img">
         <div class="news-events__main__info">
             <p class="news-events__main__info__copy">
-                2016 biennial Victoria & Tasmania Rally, 15th & 16th October 2016 at the Bendigo Town Hall.
-                <a href="https://rf.churchapp.co.uk/events/xpdtoboe" class="hide-md">Register</a>
+                2017 International Convention, 11th - 12th June hosted by the Geelong fellowship, Australia.
+                <a href="https://www.trfgeelong.com.au/" class="hide-md">More Info</a>
             </p>
-            <a href="https://rf.churchapp.co.uk/events/xpdtoboe" class="news-events__main__info__action button button--alt show-md">Register</a>
+            <a href="https://www.trfgeelong.com.au/" class="news-events__main__info__action button button--alt show-md">More Info</a>
         </div>
     </div>
 </section>
