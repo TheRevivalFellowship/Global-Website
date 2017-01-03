@@ -16,8 +16,8 @@ function inc_src($path) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:title" content="The Revival Fellowship - A solid foundation in Christ.">
 	<meta property="og:description" content="We believe in a God that is alive today, a bible that is the word of God and the born again experience of the Holy Spirit.">
-	<meta property="og:url" content="http://therevivalfellowship.com/">
-	<meta property="og:image" content="http://therevivalfellowship.com/assets/img/title--facebook--ogimage.jpg">
+	<meta property="og:url" content="https://therevivalfellowship.com/">
+	<meta property="og:image" content="https://therevivalfellowship.com/assets/img/title--facebook--ogimage.jpg">
 
     <!-- favicon and app icons generated at realfavicongenerator.net -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
